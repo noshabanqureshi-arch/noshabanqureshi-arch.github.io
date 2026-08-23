@@ -1,55 +1,58 @@
-# Square Social Studio — Owner-Only Launch Actions
+# Square Social Studio — Owner-Only Actions
 
-Everything on this list requires the legal business owner because it involves identity, money, regulated account information or a binding choice. Website/product production can continue without these items, but public checkout should remain disabled until they are complete.
+Updated August 23, 2026.
 
-## Business identity
-- [ ] Confirm final legal operating structure for launch (for example, sole proprietorship/trade name or corporation).
-- [ ] Confirm/register the Square Social Studio trade/business name as appropriate.
-- [ ] Confirm final public business mailing address that can legally be displayed on online-sale/contact records without exposing a private residential address unnecessarily.
-- [ ] Confirm business telephone number.
-- [ ] Confirm legal owner/operator name used on contracts and payment accounts.
+The $27 Starter is already live through Payhip. This checklist now separates **completed launch actions** from the remaining owner/business-identity work.
 
-## Domain + email
-- [ ] Purchase/confirm the chosen Square Social Studio domain.
-- [ ] Create `hello@...`, `support@...` and `privacy@...` or equivalent addresses.
-- [ ] Authorize DNS changes so the domain can point to the GitHub Pages site.
+## Completed
+- [x] Payhip account created/verified enough to add products.
+- [x] Stripe connected to Payhip.
+- [x] payout banking information entered during Stripe/Payhip onboarding.
+- [x] CAD selected as Payhip default currency.
+- [x] SSS-P01 — 30-Day Content Starter created in Payhip.
+- [x] final SSS-P01 ZIP uploaded.
+- [x] 100%-off mobile checkout/download test completed successfully.
+- [x] website $27 Buy button connected to Payhip.
 
-## Payhip + payment
-- [ ] Create/verify Payhip account.
-- [ ] Connect Stripe and/or PayPal using the owner’s financial information.
-- [ ] Enter required tax/business information.
-- [ ] Confirm payout account.
-- [ ] Confirm CAD pricing and tax configuration.
+## Immediate remaining owner action
+- [ ] Create the **$0 Payhip freebie** using `FREEBIE_PAYHIP_HANDOFF.md` and return its product URL so the website freebie button can be activated.
 
-## Email
-- [ ] Choose email-marketing provider or Payhip email features.
-- [ ] Enter the business identity/contact details used in commercial emails.
-- [ ] Confirm consent/recordkeeping/unsubscribe settings.
+## Business identity — complete as the business becomes more public
+- [ ] Confirm final legal operating structure for Square Social Studio.
+- [ ] Confirm/register trade/business name as appropriate.
+- [ ] Confirm legal owner/operator name used on contracts/payment accounts.
+- [ ] Choose a business mailing address suitable for public/commercial-email use without exposing a residential address unnecessarily.
+- [ ] Choose a dedicated business telephone number if needed.
 
-## Policies
-Fill these placeholders before policies become public:
-- [ ] legal owner / registered business name
-- [ ] business mailing address
-- [ ] telephone number
-- [ ] support email
-- [ ] privacy contact/email
-- [ ] actual processors/vendors
-- [ ] course access term
-- [ ] refund workflow
+## Domain + branded email
+- [ ] Purchase/confirm final Square Social Studio domain.
+- [ ] Point the domain to the website when ready.
+- [ ] Create branded sender/support/privacy addresses such as `hello@`, `support@`, `privacy@` or equivalents.
 
-## Final approvals
-- [ ] Review customer-facing privacy policy.
-- [ ] Review Terms of Sale / refund policy.
-- [ ] Review digital-product licence.
-- [ ] Review course terms/access policy.
-- [ ] Approve first live test transaction.
+## Marketing email
+- [ ] Choose the permission-based email provider.
+- [ ] Add business identity/contact details to email footer.
+- [ ] Configure explicit consent records.
+- [ ] Configure and test unsubscribe.
+- [ ] Insert the final freebie link into Email 1.
+- [ ] Activate the five-email sequence only after all above items pass QA.
 
-## Do not put in GitHub
-Never commit:
+## Policies / professional review
+Public plain-language launch notices now exist for privacy, digital product terms and licence. As the business structure is finalized:
+- [ ] have the policies reviewed for the actual legal operating structure and target markets;
+- [ ] add any legally required operator/address/phone disclosure in the appropriate customer-facing place;
+- [ ] confirm the refund/support workflow;
+- [ ] add course-specific terms before any course checkout opens.
+
+## Other products
+Owner should not activate another checkout until the exact package/course access for that SKU is tested.
+
+## Never put in public GitHub
 - passwords
 - API secret keys
 - banking information
 - government ID
 - tax account credentials
 - payment card data
-- private customer information
+- private customer/order information
+- paid ZIP files or private course media
