@@ -47,9 +47,109 @@ Do not switch voices between lessons or offers unless the brand system is delibe
 - Use an AI avatar/presenter only sparingly, primarily for openings, transitions or closings.
 - Keep visuals instructional rather than decorative.
 - Add readable captions/subtitles to every lesson.
+- Important meaning must still be understandable when sound is off whenever the destination commonly supports silent viewing.
 - Keep on-screen text inside mobile-safe margins.
 - Export finished lessons as MP4.
 - Do not place paid lesson media in the public GitHub repository.
+
+## Pre-production video brief — required
+Before producing a course lesson, Reel, Short, tutorial or promotional video, record:
+- audience segment,
+- funnel/customer-journey stage,
+- one intended outcome,
+- one CTA,
+- destination platform,
+- native aspect ratio,
+- target duration,
+- sound-on/sound-off expectation,
+- thumbnail/cover requirement,
+- primary KPI.
+
+The same core idea can be adapted to more than one platform, but do not assume one crop works everywhere. Check caption size, framing, safe zones, CTA and pacing for each destination.
+
+## Video funnel roles
+### Discover / Attract
+Goal: earn qualified attention around a real customer question or problem.
+
+Use:
+- short hooks,
+- FAQs,
+- myths/mistakes,
+- quick demonstrations,
+- search-friendly tutorials.
+
+### Learn / Engage
+Goal: help the viewer understand or complete something useful.
+
+Use:
+- how-tos,
+- screen demonstrations,
+- checklists,
+- examples,
+- mini lessons.
+
+### Trust / Decide
+Goal: make the method, process or offer easier to understand and believe.
+
+Use:
+- process explanations,
+- real examples,
+- transparent comparisons,
+- objection answers,
+- product/course previews.
+
+### Act
+Goal: move a qualified viewer to one appropriate next step.
+
+Use one CTA only: download, buy, join, apply or continue learning.
+
+### Delight / Retain
+Goal: help customers successfully use what they bought.
+
+Use:
+- onboarding videos,
+- implementation tips,
+- troubleshooting,
+- advanced use cases,
+- next-step education.
+
+## Sound-off and accessibility standard
+For short-form social video:
+- captions/subtitles are mandatory,
+- first-frame text should make the topic understandable,
+- critical meaning cannot depend only on narration,
+- use high-contrast text,
+- avoid tiny or rapidly changing text,
+- review the finished edit once with audio muted.
+
+For longer YouTube/course teaching:
+- accurate captions remain mandatory,
+- use audio naturally while still supporting key structure visually,
+- provide a transcript where practical,
+- use headings/chapters when the platform supports them.
+
+## Repurposing rule
+A strong lesson or tutorial should be considered a master asset.
+
+Possible waterfall:
+1. full lesson/tutorial,
+2. 2–4 short clips,
+3. one carousel/checklist,
+4. one email teaching point,
+5. one resource/article section,
+6. one product/course CTA.
+
+Repurpose the idea; do not simply repost identical files everywhere.
+
+## Video measurement rule
+Match metrics to the job:
+- Discover: qualified reach, new viewers, first-seconds retention.
+- Learn: watch time, completion, saves, useful questions.
+- Trust: return views, offer/product exploration, replies.
+- Act: CTA clicks, conversions, assisted revenue.
+- Delight: course completion, reduced support friction, repeat purchase/retention.
+
+Views alone do not determine success.
 
 ---
 
@@ -142,18 +242,24 @@ Copy the following into Claude when beginning a lesson:
 > 3. Create a shot/visual plan using Canva-style diagrams, screen demonstrations, workbook examples, B-roll and concise on-screen text.
 > 4. Keep visuals instructional, uncluttered and brand-consistent.
 > 5. Create subtitle/caption text from the narration.
-> 6. Do not invent testimonials, statistics, customer results, credentials, urgency or scarcity.
-> 7. Do not use generic stock-business imagery when a diagram, workbook page, screen demo or real process visual would teach better.
-> 8. Prepare the narration as a clean ElevenLabs-ready script with no stage directions.
-> 9. Use the exact filename supplied in the Square Social Studio media production plan.
+> 6. Ensure the key message remains understandable with audio muted when appropriate for the destination platform.
+> 7. Do not invent testimonials, statistics, customer results, credentials, urgency or scarcity.
+> 8. Do not use generic stock-business imagery when a diagram, workbook page, screen demo or real process visual would teach better.
+> 9. Prepare the narration as a clean ElevenLabs-ready script with no stage directions.
+> 10. Use the exact filename supplied in the Square Social Studio media production plan.
 
 ## Quality-control checklist for every lesson
 - Same narration voice as the previous lesson.
+- Funnel role and audience are defined.
+- Destination platform/aspect ratio is defined.
 - No off-brand colours or extra display fonts.
 - Headline is clear over clever.
-- Captions are readable.
+- Captions are readable and accurate.
+- Muted playback still communicates the essential topic where appropriate.
 - No unsupported claims.
 - Examples are real or clearly identified as hypothetical.
 - One lesson outcome is obvious.
+- One CTA is obvious when a CTA is needed.
 - MP3 and MP4 filenames match the production plan.
 - Final video can stand alone without needing live instruction.
+- Primary success metric is recorded before publishing.
