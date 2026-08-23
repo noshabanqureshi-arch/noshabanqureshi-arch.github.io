@@ -51,7 +51,15 @@ Current public systems include:
 - 404,
 - sitemap/robots/canonical foundation.
 
-The sitemap now prioritizes live/evergreen pages rather than unfinished preview pages.
+Private operator systems now also include:
+- 20-post launch dashboard,
+- First $1K command center,
+- platform-specific tracked bio shortcuts,
+- browser-local five-week campaign scorecard,
+- ten-minute post-publish routine,
+- campaign decision rules.
+
+The sitemap prioritizes live/evergreen pages rather than unfinished preview pages. Private operator pages are noindex.
 
 ## Paid product
 **30-Day Content Starter — CAD $27**
@@ -141,17 +149,40 @@ Working target:
 This is an experiment, not a forecast.
 
 ## Distribution plan
-Four-week / 16-piece publishing plan:
-`FIRST_1000_30_DAY_PUBLISHING_PLAN.md`
+The campaign is now a **five-week / 20-post execution system**.
+
+All 20 visual launch assets are built in Canva:
+- Week 1: Posts 1–4
+- Week 2: Posts 5–8
+- Weeks 3 + 4: Posts 9–16
+- Week 5: Posts 17–20
+
+Private execution pages:
+- `/launch-dashboard/` = post copy, destinations and posting checklist
+- `/launch-command-center/` = Canva packs, tracked profile links, post-publish routine, weekly metrics and decision rules
 
 Primary principle:
-- reuse existing post copy,
-- education content → relevant Resources,
+- publish the existing campaign before creating more launch assets,
+- education content → relevant Resources/free ideas,
 - high purchase intent → focused Starter landing page,
+- one primary CTA per post,
 - no paid traffic until organic data + analytics make a test interpretable.
 
+## Current operating loop
+**Publish → verify → respond → record → review → improve one variable → repeat.**
+
+Do not judge the campaign from one post or first-hour likes.
+
+At weekly review, use verified metrics only:
+- visits,
+- destination clicks,
+- Starter orders,
+- gross revenue,
+- useful questions/comments,
+- owner time.
+
 ## Current content engine
-Ten evergreen guides now support:
+Ten evergreen guides support:
 - content ideas,
 - customer questions,
 - content jobs,
@@ -289,24 +320,32 @@ The actual mix must be based on real conversion, churn, owner hours and customer
 
 # 9. NEXT FIVE PRIORITIES
 
-## Priority 1 — Run the 30-day distribution test
-Use existing 16-piece plan.
+## Priority 1 — Publish the completed 20-post campaign
+Do not build more launch graphics first.
+
+Use:
+- `/launch-command-center/`
+- `/launch-dashboard/`
+- the four completed Canva packs.
 
 Expected benefit:
 - first real traffic/message/purchase evidence.
 
-## Priority 2 — Activate freebie PDF delivery
+## Priority 2 — Review verified campaign data weekly
+Use the browser-local scorecard until Search Console/analytics is connected.
+
+Decision rule:
+- change one meaningful variable at a time.
+
+## Priority 3 — Activate freebie PDF delivery
 Manual Payhip step.
 
-Because the ideas are now public on the web, this is useful but no longer blocks the free educational funnel.
+Because the ideas are public on the web, this is useful but no longer blocks the free educational funnel.
 
-## Priority 3 — Establish branded domain/email identity
-Needed for professional email/support and Mailchimp activation.
+## Priority 4 — Establish branded domain/email + Search Console/analytics
+Needed for professional support/email and stronger measurement.
 
 Do not guess domain availability from general web search; verify through a registrar and formal brand/trademark due diligence as appropriate.
-
-## Priority 4 — Search Console + analytics
-Needed to understand qualified traffic and campaign behavior.
 
 ## Priority 5 — Secure premium-service intake
 Needed before accepting any Done-for-You client application.
@@ -316,6 +355,7 @@ Needed before accepting any Done-for-You client application.
 # 10. NOT NEXT
 
 Do **not** make these the current priority:
+- creating more launch posts before the current 20 are published/tested,
 - building five more product files merely to fill the shop,
 - activating the Vault subscription before member delivery exists,
 - filming all 15 flagship lessons before the current funnel produces useful evidence,
@@ -335,11 +375,13 @@ Ask:
 1. Gross revenue this week/month?
 2. Payhip Starter orders?
 3. Best qualified traffic/content angle?
-4. Any access/support problems?
-5. Owner hours used?
-6. Any client/service capacity risk?
-7. What existing asset can be reused next?
-8. What is the one most important blocker to remove?
-9. What should we stop doing?
+4. Destination clicks compared with reach/visits?
+5. Any recurring customer question worth turning into content?
+6. Any access/support problems?
+7. Owner hours used?
+8. Any client/service capacity risk?
+9. What existing asset can be reused next?
+10. What one variable should change next week?
+11. What should we stop doing?
 
 Then choose no more than **three priorities** for the next week.
