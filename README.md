@@ -33,6 +33,8 @@ These internal repository documents keep the business strategy consistent:
 - `EMAIL_FUNNEL.md` — nurture, segmentation, customer-success and permission rules
 - `CUSTOMER_RETENTION_REPUTATION_PLAYBOOK.md` — service, community, UGC, reviews, advocacy and crisis response
 - `MEASUREMENT_EXPERIMENT_PLAN.md` — KPIs, funnel measurement, video/email metrics and A/B tests
+- `QUARTERLY_STRATEGY_REVIEW.md` — SWOT, competitive/category review, STP, 7P, capacity and quarterly decisions
+- `CREATOR_PARTNERSHIP_POLICY.md` — creator/influencer selection, agreements, rights, disclosure and measurement
 - `CONESTOGA_STRATEGY_AUDIT.md` — folder-by-folder mapping from Conestoga coursework into the real business
 
 ## Commercial model
