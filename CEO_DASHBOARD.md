@@ -33,7 +33,7 @@ Clarify → Plan → Create → Publish → Repeat
 # 2. LIVE NOW
 
 ## Website
-Live on GitHub Pages.
+Public site is hosted from the GitHub Pages repository.
 
 Current public systems include:
 - homepage,
@@ -46,20 +46,24 @@ Current public systems include:
 - focused Starter campaign landing page,
 - Done-for-You service/fit check,
 - planned course/Vault pages,
-- launch-status/contact page,
+- contact/launch-status page,
 - privacy/terms/licence,
 - 404,
-- sitemap/robots/canonical foundation.
+- sitemap/robots/canonical foundation,
+- social-share metadata on the main campaign/resource/product entry pages.
 
-Private operator systems now also include:
+Private operator systems include:
 - 20-post launch dashboard,
 - First $1K command center,
+- dated five-week publishing calendar,
+- Instagram launch-day setup page,
+- five-Reel production board,
 - platform-specific tracked bio shortcuts,
 - browser-local five-week campaign scorecard,
 - ten-minute post-publish routine,
 - campaign decision rules.
 
-The sitemap prioritizes live/evergreen pages rather than unfinished preview pages. Private operator pages are noindex.
+The sitemap prioritizes live/evergreen pages rather than unfinished preview pages. Private operator pages are `noindex`.
 
 ## Paid product
 **30-Day Content Starter — CAD $27**
@@ -73,11 +77,20 @@ Live Square Social Stripe account is activated for payments and payouts with no 
 
 Keep the current Starter on Payhip because checkout/delivery already works.
 
+## Customer support
+Launch support is now customer-usable:
+- Payhip receipt/download flow remains first-line access recovery,
+- temporary Square Social brand support/inquiry inbox is published: `squaresocialstudio@gmail.com`,
+- Contact page explains what information to include and what sensitive information not to email,
+- Privacy Notice now discloses the temporary support-email data flow,
+- permanent branded-domain support email remains a later professionalization step,
+- customer support does **not** block the live Starter campaign.
+
 ## Customer-success support
 Prepared:
 - public noindex Starter quick-start page,
 - order/download support guidance,
-- post-purchase email strategy for later activation,
+- post-purchase email strategy for later marketing activation,
 - proof/case-study rules ready before any testimonial is collected.
 
 ---
@@ -94,18 +107,19 @@ Private Dropbox package verified ready:
 Blocker:
 - create/test $0 Payhip product manually and connect URL.
 
-Important change:
-- the full 30 ideas are already published as an indexable free web guide, so the PDF is now a printable companion rather than the only way to access the ideas.
+Important:
+- the full 30 ideas are already published as an indexable free web guide, so the PDF is a printable companion rather than the only way to access the ideas.
 
 Rule:
 - automatic mailing-list subscription remains OFF.
 
-## Email marketing
+## Marketing email
 Verified:
-- Square Social Studio Mailchimp account exists.
-- welcome/nurture/customer-success copy is prepared.
+- Square Social Studio Mailchimp account exists,
+- welcome/nurture/customer-success copy is prepared,
+- temporary launch support Gmail exists but is not treated as marketing consent or the permanent Mailchimp sender identity.
 
-Blockers:
+Blockers before ongoing marketing automation:
 - branded domain/email,
 - suitable business contact/mailing identity,
 - sender setup/authentication,
@@ -120,11 +134,14 @@ Site-side basics ready:
 - canonical URLs,
 - 10-resource cluster,
 - structured data where supportable,
+- social-share metadata on main campaign entry pages,
 - SEO content-cluster plan.
 
 Blockers:
 - Search Console verification/submission,
 - real analytics property and privacy-aligned event setup.
+
+Do not request indexing for intentional noindex pages such as Start Here or operator/campaign-control pages.
 
 ## Secure premium application
 Browser-only fit check is live.
@@ -145,26 +162,44 @@ Live offer:
 
 Working target:
 - 40 sales = $1,080 gross
+- 38 sales = $1,026 gross
 
 This is an experiment, not a forecast.
 
 ## Distribution plan
-The campaign is now a **five-week / 20-post execution system**.
+The campaign is now a **five-week / 20-post execution system**, August 24–September 27, 2026.
 
-All 20 visual launch assets are built in Canva:
+All 20 static/cover launch assets are built in Canva:
 - Week 1: Posts 1–4
 - Week 2: Posts 5–8
 - Weeks 3 + 4: Posts 9–16
 - Week 5: Posts 17–20
 
-Private execution pages:
-- `/launch-dashboard/` = post copy, destinations and posting checklist
+Five planned Reel slots have current scripts/shot lists:
+- Posts 1, 6, 10, 12, 16.
+
+Fresh Reel audio/video is not fully produced yet.
+
+**No-delay rule:** if fresh video is not ready, publish the approved static cover + full caption on Instagram with the same CTA/UTM. Do not postpone the campaign and do not reuse the retired $850-sprint video/audio.
+
+## Primary channel
+Instagram is the primary campaign test channel.
+
+Evidence exists of an Instagram profile named `square.social.studio`, but connected email evidence alone is not enough to certify ownership/configuration. Profile setup should therefore be checked before Post 1 goes live.
+
+TikTok and Pinterest are optional reuse channels. No connected-email setup evidence was found for Square Social accounts there, so they are not launch blockers.
+
+## Private execution pages
+- `/instagram-launch/` = launch-day bio, tracked link, Post 1 caption and QA
+- `/launch-dashboard/` = all 20 post captions, destinations and posting checklist
 - `/launch-command-center/` = Canva packs, tracked profile links, post-publish routine, weekly metrics and decision rules
+- `/publishing-calendar/` = dated schedule and completion checks
+- `/reel-production/` = current Reel scripts/shot lists
 
 Primary principle:
 - publish the existing campaign before creating more launch assets,
-- education content → relevant Resources/free ideas,
-- high purchase intent → focused Starter landing page,
+- education content → full 30-ideas web guide,
+- purchase intent → focused Starter landing page,
 - one primary CTA per post,
 - no paid traffic until organic data + analytics make a test interpretable.
 
@@ -174,7 +209,7 @@ Primary principle:
 Do not judge the campaign from one post or first-hour likes.
 
 At weekly review, use verified metrics only:
-- visits,
+- visits/reach where available,
 - destination clicks,
 - Starter orders,
 - gross revenue,
@@ -254,7 +289,7 @@ Status:
 - promised MVP assets limited to verified Starter/planning sheets + AI prompts + transcripts,
 - media/access still needs production/QA.
 
-The previous generic “30 Days of Content in 60 Minutes” primary title was retired after a current competitive scan found a similar Canadian “30 Days of Content in 30 Mins” masterclass.
+The previous generic “30 Days of Content in 60 Minutes” primary title is retired.
 
 ## Flagship
 **Show Up Simply™ Content System — planned $349**
@@ -320,35 +355,38 @@ The actual mix must be based on real conversion, churn, owner hours and customer
 
 # 9. NEXT FIVE PRIORITIES
 
-## Priority 1 — Publish the completed 20-post campaign
-Do not build more launch graphics first.
+## Priority 1 — Launch Instagram + publish Post 1
+Use `/instagram-launch/` for the profile bio, tracked `/ig/` link, exact caption and QA.
 
+If fresh Reel video is not ready, use the approved static cover rather than delaying.
+
+## Priority 2 — Publish the remaining completed 20-post campaign
 Use:
 - `/launch-command-center/`
 - `/launch-dashboard/`
+- `/publishing-calendar/`
 - the four completed Canva packs.
 
 Expected benefit:
 - first real traffic/message/purchase evidence.
 
-## Priority 2 — Review verified campaign data weekly
+## Priority 3 — Review verified campaign data weekly
 Use the browser-local scorecard until Search Console/analytics is connected.
 
 Decision rule:
 - change one meaningful variable at a time.
 
-## Priority 3 — Activate freebie PDF delivery
-Manual Payhip step.
+## Priority 4 — Activate the $0 printable PDF + branded domain/search infrastructure
+Payhip PDF connection is useful but no longer blocks free content access.
 
-Because the ideas are public on the web, this is useful but no longer blocks the free educational funnel.
-
-## Priority 4 — Establish branded domain/email + Search Console/analytics
-Needed for professional support/email and stronger measurement.
-
-Do not guess domain availability from general web search; verify through a registrar and formal brand/trademark due diligence as appropriate.
+Then progress:
+- domain/business email,
+- Search Console,
+- analytics/privacy-aligned events,
+- Mailchimp sender/consent setup.
 
 ## Priority 5 — Secure premium-service intake
-Needed before accepting any Done-for-You client application.
+Needed before accepting Done-for-You client applications.
 
 ---
 
