@@ -11,6 +11,8 @@ Operating guardrails:
 - Revenue growth should come primarily from pricing, digital products, courses, recurring membership and reuse of intellectual property—not from continuously adding client work.
 - Default to asynchronous delivery, approvals and support.
 - Every new offer must be evaluated for owner hours required per sale and per month.
+- Premium client delivery must follow `CLIENT_DELIVERY_CAPACITY_SYSTEM.md`; the calendar drives delivery rather than the inbox.
+- Target premium-client owner time is approximately 12–15 hours/client/month, with the remaining workweek protected for scalable offers, Square Social marketing, admin and buffer.
 
 ## 2. Business → marketing → website goal hierarchy
 
@@ -143,7 +145,9 @@ Design for low friction:
 - asynchronous onboarding and approvals,
 - clear support boundaries,
 - documented workflows,
-- no unnecessary meetings.
+- no unnecessary meetings,
+- predictable monthly production windows for premium clients,
+- real-data reporting rather than estimated performance claims.
 
 ### Physical evidence
 For a digital business, proof includes:
@@ -222,6 +226,8 @@ Owned authority, SEO discovery, conversion and product education.
 ### Email
 Primary owned nurture, conversion and retention channel. Build the list with explicit, documented permission processes appropriate to the communication being sent.
 
+Mailchimp is the selected platform, but ongoing marketing automation remains off until the sender/business-address, consent, unsubscribe, segmentation and privacy gates in `EMAIL_PLATFORM_ACTIVATION.md` are complete.
+
 ### Instagram
 Visual teaching, Reels, carousels, product education and brand familiarity.
 
@@ -251,6 +257,8 @@ Before paid promotion:
 - budget and stop conditions are defined.
 
 Best early paid target: a proven lead magnet or proven entry product, not random boosted posts.
+
+For the live $27 Starter, campaign traffic should use the focused landing page documented in `FIRST_1000_CAMPAIGN_ROUTING.md` rather than defaulting every visitor to the normal product page.
 
 ## 10. Customer feedback and advocacy
 After a customer has had enough time to use an offer:
