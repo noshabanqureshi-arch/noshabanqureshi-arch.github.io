@@ -73,14 +73,7 @@ Use the same five content jobs built into the product:
 - **Offer:** demonstrate what the $27 Starter includes and who it is for.
 - **Convert:** invite the person to download the free guide or buy the Starter.
 
-### Weekly publishing rhythm to test
-- 2 teaching posts
-- 1 trust/process post
-- 1 connection or point-of-view post
-- 1 offer/conversion post
-- Stories / short updates repurposed from the same topics
-
-One useful idea may be reused as a Reel, carousel, email and Story sequence. Do not create a separate strategy for every format.
+A separate `FIRST_1000_CONTENT_PLAN.md` contains the 20-post acquisition campaign.
 
 ## Minimum launch path
 The business can start selling the $27 Starter when all of the following are true:
@@ -89,8 +82,7 @@ The business can start selling the $27 Starter when all of the following are tru
 - customer-safe Canva duplicate link inserted
 - branded support email inserted
 - privacy / terms / licence finalized with required business details
-- Stripe payment methods enabled
-- hosted checkout created
+- hosted Stripe checkout created
 - secure automatic delivery connected
 - mobile checkout tested
 - one end-to-end purchase test completed
@@ -102,16 +94,22 @@ The business can start selling the $27 Starter when all of the following are tru
 - final 10-page companion exists
 - final customer ZIP assembled
 - sales page updated to current deliverables
-- free lead magnet exists
+- free lead magnet exists and is packaged
 - five-email nurture sequence drafted
 - brand system and funnel positioning established
+- live Stripe card checkout link created for SSS-P01
+- checkout redirects to the safe Starter confirmation page
+- live payment link intentionally deactivated until delivery QA is complete
+- analytics event map created
+- 20-post first-$1,000 acquisition campaign created
 
 ### Blocking public checkout
-- Stripe has no eligible payment method enabled for the payment link yet
 - customer-safe Canva duplicate link still required
 - branded business support/privacy email still required
 - secure automatic delivery platform still needs connection
 - final legal business details still required
+- analytics property / measurement ID still needs connection
+- one end-to-end test purchase is still required after delivery is connected
 
 ## Rule
-Do not publish a live buy button until a successful test proves that a buyer can pay, receive access and get support without manual intervention.
+Do not reactivate or publish the live Stripe buy link until a successful test proves that a buyer can pay, receive access and get support without manual intervention.
