@@ -30,8 +30,11 @@ Status key:
 - ✅ Dedicated focused campaign landing page: `/lp/30-day-content-starter/`.
 - ✅ Canonical URLs on the main SEO/conversion pages.
 - ✅ Core navigation normalized across the main site.
+- ✅ Done-for-You pre-qualification/application-question page at `/services/done-for-you/apply/`.
+- ✅ Course and Vault pages clearly distinguish planned offers from live checkout.
+- ✅ Contact/launch-status page now reflects live, package-ready, planned and external-setup states.
 - 🟡 Analytics/event tracking prepared in the measurement plan; waiting for a real analytics property/ID and final privacy implementation.
-- 🟡 Free lead-magnet conversion page cannot be fully activated until the $0 delivery/checkout link is connected.
+- 🟡 The free lead-magnet ZIP and cover are finished in Dropbox, but the public download remains blocked until the intended $0 Payhip delivery link is connected.
 
 ---
 
@@ -78,7 +81,7 @@ Status key:
 - ✅ `CUSTOMER_RETENTION_REPUTATION_PLAYBOOK.md` covers customer service, reviews, UGC, reputation and crisis levels.
 - ✅ Honest review/referral/UGC permission rules documented.
 - ✅ Vault community model designed around implementation rather than message volume.
-- ✅ `CREATOR_PARTNERSHIP_POLICY.md` now requires target-audience/brand fit, a defined funnel role, measurement and a written agreement covering scope, timeline, compensation, content rights, approvals, disclosure/compliance and termination.
+- ✅ `CREATOR_PARTNERSHIP_POLICY.md` requires target-audience/brand fit, a defined funnel role, measurement and a written agreement covering scope, timeline, compensation, content rights, approvals, disclosure/compliance and termination.
 - ⏭ Creator partnerships remain optional and should only activate after a proven offer/campaign and acceptable budget/workload.
 
 ---
@@ -107,6 +110,7 @@ Status key:
 - ✅ Email accessibility standards documented.
 - ✅ One-variable A/B testing and experiment log in `MEASUREMENT_EXPERIMENT_PLAN.md`.
 - ✅ Paid-media gate prevents spending on unvalidated offers/messages.
+- ✅ Premium-service pre-qualification happens without collecting applicant data before a secure destination exists.
 - 🟡 Ongoing marketing automation waits for the final email platform, branded sender details and compliant implementation.
 
 ---
@@ -208,11 +212,11 @@ These are not strategy gaps; they require external setup or finished assets.
 
 1. Branded Square Social Studio email/support address.
 2. Final email-marketing platform and compliant opt-in/unsubscribe implementation.
-3. $0 Payhip/delivery connection for the free resource.
+3. $0 Payhip delivery connection for the finished free-resource ZIP.
 4. Real analytics property/measurement ID and final tracking/privacy configuration.
-5. Finished mini-course media and tested course-access flow.
+5. Finished mini-course media and tested protected course-access flow.
 6. Vault platform/content delivery before paid membership opens.
-7. Low-touch premium-service application/intake form.
+7. Secure premium-service application submission backend/destination; the fit check and application questions are already live.
 8. Real customer reviews/case examples before any proof/testimonial section is added.
 
 Do not fabricate or bypass any of these dependencies merely to make the website look more complete.
