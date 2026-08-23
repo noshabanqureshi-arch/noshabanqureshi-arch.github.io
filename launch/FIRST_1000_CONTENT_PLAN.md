@@ -3,11 +3,13 @@
 ## Objective
 Drive qualified traffic to the **30-Day Content Starter** and the **30 Content Ideas** free resource. This is a traffic-and-conversion campaign, not a follower-growth campaign.
 
-## 30-day traffic target
+## 30-day working test
 - 1,000 qualified Starter-page visits
-- working purchase target: 4%
+- working purchase assumption: 4%
 - working sales target: 40
 - working gross revenue target: $1,080 CAD
+
+The 4% rate is a test assumption, not a forecast or guarantee. Replace it with real Square Social Studio data as soon as there is a useful sample.
 
 ## Message hierarchy
 1. You do not need more random content ideas.
@@ -31,119 +33,79 @@ Use only when the post is primarily educational and not intended to drive a purc
 ## Four-week publishing map
 
 ### Week 1 — Clarify the problem
-**Post 1 — Teach / Reel**
-Hook: “If you never know what to post, the problem may not be a lack of ideas.”
-Points: unclear goal; unclear audience; no repeatable categories.
-CTA: Free 30 Content Ideas guide.
+**Post 1 — Teach / Reel** — Why the problem may not be a lack of ideas. CTA: Free guide.
 
-**Post 2 — Teach / Carousel**
-Topic: Five jobs your content can do: Teach, Trust, Connect, Offer, Convert.
-CTA: Save or get the free guide.
+**Post 2 — Teach / Carousel** — Teach / Trust / Connect / Offer / Convert. CTA: Free guide.
 
-**Post 3 — Trust / Process**
-Topic: Show the monthly planning workflow: goal → audience → pillars → ideas → calendar.
-CTA: View the $27 Starter.
+**Post 3 — Trust / Process** — Goal → audience → pillars → ideas → calendar. CTA: Starter.
 
-**Post 4 — Connect / Point of view**
-Topic: “You do not need to become a full-time creator to market a small business.”
-CTA: Free guide.
+**Post 4 — Connect / Point of view** — You do not need to become a full-time creator. CTA: Free guide.
 
-**Post 5 — Offer / Static or carousel**
-Topic: What is actually inside the 30-Day Content Starter.
-CTA: View the $27 Starter.
+**Post 5 — Offer / Carousel** — What is inside the 30-Day Content Starter. CTA: Starter.
 
 ### Week 2 — Teach the method
-**Post 6 — Teach / Reel**
-Hook: “One customer question can become four pieces of content.”
-Show: Reel → carousel → email → Story.
-CTA: Free guide.
+**Post 6 — Teach / Reel** — One customer question can become four pieces of content. CTA: Free guide.
 
-**Post 7 — Teach / Carousel**
-Topic: How to choose four useful content pillars.
-CTA: Starter.
+**Post 7 — Teach / Carousel** — How to choose four useful content pillars. CTA: Starter.
 
-**Post 8 — Trust / Screen or desk B-roll**
-Topic: What a content planning session looks like without overcomplicating it.
-CTA: Starter.
+**Post 8 — Trust / B-roll** — What a simple content planning session looks like. CTA: Starter.
 
-**Post 9 — Connect / Text-led post**
-Topic: Clear over clever. Useful over noisy.
-CTA: Free guide.
+**Post 9 — Connect / Text-led post** — Clear over clever. Useful over noisy. CTA: Free guide.
 
-**Post 10 — Convert / Reel**
-Hook: “If you want your next month planned before you start posting, this is for you.”
-CTA: Starter.
+**Post 10 — Convert / Reel** — Plan the next month before you start posting. CTA: Starter.
 
 ### Week 3 — Handle objections
-**Post 11 — Teach / Carousel**
-Topic: “Do I need to post every day?” Answer: no; 30 ideas are a content bank.
-CTA: Starter.
+**Post 11 — Teach / Carousel** — You do not need to post every day; 30 ideas are a content bank. CTA: Starter.
 
-**Post 12 — Teach / Reel**
-Topic: How to use AI without letting it invent expertise.
-CTA: Free guide.
+**Post 12 — Teach / Reel** — Use AI without letting it invent expertise. CTA: Free guide.
 
-**Post 13 — Trust / FAQ**
-Topic: Who the Starter is for and who it is not for.
-CTA: Starter.
+**Post 13 — Trust / FAQ** — Who the Starter is for and who it is not for. CTA: Starter.
 
-**Post 14 — Connect / Story or carousel**
-Topic: Why a calm repeatable system beats an exhausting content sprint.
-CTA: Free guide.
+**Post 14 — Connect / Carousel** — Calm repeatable system versus exhausting content sprint. CTA: Free guide.
 
-**Post 15 — Offer / Walkthrough**
-Topic: 20-page workbook + 10-page companion: what each part does.
-CTA: Starter.
+**Post 15 — Offer / Walkthrough** — **24-page workbook + 11-page companion planning pack** and what each part does. CTA: Starter.
 
 ### Week 4 — Convert and learn
-**Post 16 — Teach / Reel**
-Hook: “Before you post next month, answer these four questions.”
-Questions: goal; audience; offer; action.
-CTA: Starter.
+**Post 16 — Teach / Reel** — Four questions to answer before posting next month. CTA: Starter.
 
-**Post 17 — Trust / Process**
-Topic: Show a blank-to-planned monthly workflow using the framework, without inventing customer results.
-CTA: Starter.
+**Post 17 — Trust / Process** — Blank-to-planned workflow using a clearly labelled example. CTA: Starter.
 
-**Post 18 — Teach / Carousel**
-Topic: Hook → Value → Example → Action caption formula.
-CTA: Free guide or Starter, choose one.
+**Post 18 — Teach / Carousel** — Hook → Value → Example → Action. CTA: Free guide.
 
-**Post 19 — Offer / FAQ**
-Topic: What you receive for $27 and what you do not need to buy.
-CTA: Starter.
+**Post 19 — Offer / FAQ** — What the $27 Starter includes and what it does not promise. CTA: Starter.
 
-**Post 20 — Convert / Direct**
-Topic: “Plan your next 30 days before you create another random post.”
-CTA: Starter.
+**Post 20 — Convert / Direct** — Plan the month before another random post. CTA: Starter.
+
+## Complete draft copy
+The actual captions, Reel scripts and carousel slide copy are in:
+`launch/FIRST_1000_POST_COPY.md`
 
 ## Repurposing
-Each core post may become:
-- 1 short-form video
-- 1 carousel/static post
-- 2–4 Story frames
-- 1 email paragraph or nurture topic
-- 1 Pinterest pin later if useful
+Each strong core idea may become:
+- one short-form video;
+- one carousel/static post;
+- two to four Story frames;
+- one email paragraph later, once permission-based marketing email is active;
+- one Pinterest pin when useful.
 
-Do not create all formats unless they serve the traffic goal.
+Do not create every format just to fill a calendar.
 
-## Tracking rule
-Every traffic-driving link uses campaign UTM parameters.
-Campaign: `first-1000`
+## Tracking
+Use the links and post slugs in:
+`launch/UTM_LINK_LIBRARY.md`
 
-Example:
-`?utm_source=instagram&utm_medium=organic-social&utm_campaign=first-1000&utm_content=content-pillars-reel`
+Campaign value:
+`first-1000`
 
 ## Weekly review
-Every seven days record:
-- Starter page sessions
-- freebie page sessions
-- opt-ins once email capture is live
-- checkout starts
-- sales
-- revenue
-- purchase conversion rate
-- top traffic source
-- top converting post
+Every seven days record what is actually available:
+- Starter page sessions once website analytics is connected;
+- freebie page sessions once website analytics is connected;
+- Payhip freebie orders after the $0 product is live;
+- Payhip paid orders;
+- gross Starter revenue;
+- refunds/access problems;
+- top traffic source when attribution data is available;
+- top converting content when enough data exists.
 
-Do not replace sales data with engagement data. Likes, views and saves help diagnose content; the primary campaign outcome is qualified traffic and purchases.
+Do not substitute likes, follower count or views for purchase data. Engagement can diagnose content; the business outcome is qualified traffic and purchases.
