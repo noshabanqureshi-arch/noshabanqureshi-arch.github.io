@@ -25,12 +25,16 @@ Status key:
 - ✅ Global focus states, larger navigation targets and reduced-motion support in `assets/brand-system.css`.
 - ✅ Branded `404.html` recovery page.
 - ✅ Searchable `/resources/` hub.
-- ✅ First evergreen resource: `/resources/turn-customer-questions-into-content/`.
+- ✅ Six evergreen educational resources published from existing Square Social teaching/content instead of creating disconnected filler pages.
 - ✅ Expanded `sitemap.xml`; `robots.txt` already existed and is correct.
 - ✅ Dedicated focused campaign landing page: `/lp/30-day-content-starter/`.
-- ✅ `FIRST_1000_CAMPAIGN_ROUTING.md` now separates education, product-research and conversion destinations rather than sending every visitor to one page.
+- ✅ `FIRST_1000_CAMPAIGN_ROUTING.md` separates education, product-research and conversion destinations rather than sending every visitor to one page.
 - ✅ Canonical URLs on the main SEO/conversion pages.
 - ✅ Core navigation normalized across the main site.
+- ✅ Live $27 Starter now includes accurate Product/Offer structured data: visible $27 CAD offer and online-only availability, with no fabricated ratings/reviews.
+- ✅ About page includes minimal Organization structured data using only the public business name, URL and description.
+- ✅ `SEARCH_VISIBILITY_ACTIVATION.md` documents Search Console verification, sitemap submission, index inspection and custom-domain migration.
+- 🟡 Current external search checks did not surface the site/product by exact brand/product queries; Search Console verification/indexing should be checked rather than assumed.
 - 🟡 Analytics/event tracking prepared in the measurement plan; a real analytics property/ID is still not connected.
 - 🟡 Free lead-magnet page and package are finished, but the $0 Payhip delivery URL is still an external activation gate.
 
@@ -56,6 +60,7 @@ Status key:
 - ✅ Video success metrics mapped by funnel job.
 - ✅ Master-asset → clips/carousels/email/resource repurposing rule.
 - ✅ AI avatar/voice remains production support, not the value proposition.
+- ✅ Published evergreen “Short-Form Video Without the Performance” guide based on the same video-production rules.
 
 ---
 
@@ -79,7 +84,7 @@ Status key:
 - ✅ `CUSTOMER_RETENTION_REPUTATION_PLAYBOOK.md` covers customer service, reviews, UGC, reputation and crisis levels.
 - ✅ Honest review/referral/UGC permission rules documented.
 - ✅ Vault community model designed around implementation rather than message volume.
-- ✅ `CREATOR_PARTNERSHIP_POLICY.md` now requires target-audience/brand fit, a defined funnel role, measurement and a written agreement covering scope, timeline, compensation, content rights, approvals, disclosure/compliance and termination.
+- ✅ `CREATOR_PARTNERSHIP_POLICY.md` requires target-audience/brand fit, a defined funnel role, measurement and a written agreement covering scope, timeline, compensation, content rights, approvals, disclosure/compliance and termination.
 - ⏭ Creator partnerships remain optional and should only activate after a proven offer/campaign and acceptable budget/workload.
 
 ---
@@ -182,7 +187,7 @@ Status key:
 - ✅ Buyer-persona thinking integrated into the three target segments.
 - ✅ Brand promise: “Show Up Simply™” and “Turn what you already know into content.”
 - ✅ Evergreen resource/blog layer added to the website.
-- ✅ First resource converts a common business question into a repeatable content method.
+- ✅ Existing social/course concepts repurposed into six evergreen resources instead of being left as one-off campaign posts.
 - ✅ Email/customer relationship flow extends beyond acquisition.
 - ✅ Trust → loyalty → advocacy built into the retention playbook.
 - ✅ UGC/reviews only with authentic content and permission.
@@ -206,6 +211,8 @@ Status key:
 12. **Review the situation quarterly.** SWOT and competitive review inform what to double down on, fix, test, stop and protect.
 13. **Calendar over inbox.** Premium-client delivery follows a monthly batch rhythm so reactive work does not control the owner’s day.
 14. **Real data or no claim.** Client reports stop and request missing analytics rather than estimating results.
+15. **Only sell a tested customer experience.** A sales page or built curriculum is not enough; checkout stays closed until delivery/access QA passes.
+16. **Search visibility is measured, not assumed.** Crawlability, sitemap, indexing and structured-data status are checked through Search Console when connected.
 
 ---
 
@@ -215,8 +222,8 @@ These are not strategy gaps; they require external setup or finished assets.
 1. Final Square Social Studio custom-domain/branded support-sender identity and suitable business mailing address.
 2. Mailchimp sender/consent/unsubscribe configuration and privacy-flow QA before marketing automation is switched on.
 3. $0 Payhip product URL for the finished free-resource package.
-4. Real analytics property/measurement ID and final tracking/privacy configuration.
-5. Finished mini-course media and tested protected course access.
+4. Google Search Console property verification/sitemap submission and real analytics property/measurement ID.
+5. Finished mini-course/flagship media and tested protected course access.
 6. Vault platform/content delivery before paid membership opens.
 7. Secure destination/backend for the done-for-you application; the fit check and application questions are already live.
 8. Real customer reviews/case examples before any proof/testimonial section is added.
