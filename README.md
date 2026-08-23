@@ -13,9 +13,11 @@ The GitHub Pages site includes:
 - Homepage and brand positioning
 - Digital product catalog
 - Live $27 30-Day Content Starter
+- Focused campaign landing page for the Starter
 - Self-paced course library
 - Planned Square Social Vault
 - Limited done-for-you service (maximum 3 active clients)
+- Browser-only done-for-you fit check / application-prep page
 - Free-resource funnel
 - Searchable Resources hub and evergreen educational content
 - About, contact, privacy, terms and licence pages
@@ -28,6 +30,7 @@ These internal repository documents keep the business strategy consistent:
 
 - `BRAND_SYSTEM.md` — brand positioning, voice, design, funnel and editorial rules
 - `BUSINESS_MARKETING_SYSTEM.md` — audience segments, STP, 7Ps, channel roles and business model
+- `CLIENT_DELIVERY_CAPACITY_SYSTEM.md` — 3-client ceiling, owner-hour budget, onboarding, monthly delivery rhythm, reporting and delegation rules
 - `CONTENT_CAMPAIGN_PLAYBOOK.md` — campaign briefs, content audits, repurposing, video, SEO and landing pages
 - `COURSE_MEDIA_PRODUCTION.md` — course/video production and accessibility workflow
 - `EMAIL_FUNNEL.md` — nurture, segmentation, customer-success and permission rules
@@ -39,6 +42,8 @@ These internal repository documents keep the business strategy consistent:
 
 ## Commercial model
 Square Social Studio is deliberately designed not to become a high-volume agency. Growth should come from a combination of digital products, self-paced education, recurring membership and a maximum of three premium done-for-you partnerships.
+
+Premium-service scaling rule: improve pricing, scope, batching and production leverage before adding owner hours. The default business design keeps client count at three and grows the rest of revenue through intellectual property and recurring products.
 
 ## Repository note
 This repository hosts the public static website and non-sensitive operating documentation. Paid course media, customer information, private client assets, credentials and other sensitive files must not be stored in the public repository.
