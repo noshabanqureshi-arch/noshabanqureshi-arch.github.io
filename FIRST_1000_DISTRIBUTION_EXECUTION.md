@@ -2,163 +2,193 @@
 
 Campaign: `first-1000`
 
-Purpose: distribute the live $27 Starter and the existing free teaching without creating more offers.
+Purpose: distribute the live $27 Starter and existing free teaching without creating more offers or turning distribution into a second full-time job.
 
 ## Core rule
-Use one idea many ways. The 20 existing campaign drafts are enough for the first test.
+Use one idea many ways. The **20 completed campaign posts are enough for the first test**.
 
-Do not add daily-posting pressure. Default cadence: **4 primary pieces/week** for 4 weeks, then review.
+Current cadence:
+- **4 core pieces/week**
+- **5 weeks**
+- **20 total posts**
+- August 24–September 27, 2026
+- Instagram is the primary campaign test channel.
+
+Do not add daily-posting pressure.
+
+If a scheduled Reel is not produced yet, publish its approved Canva cover as a static text-led Instagram post with the same caption and CTA. Do not postpone the whole campaign and do not reuse the retired $850-sprint video/audio.
 
 ## Platform roles
 
-### Instagram — trust + conversion
+### Instagram — primary test channel
 Primary formats:
-- Reels for teaching/process,
+- Reels when fresh video is ready,
 - carousels for frameworks/checklists,
-- Stories for reminders, behind-the-scenes and link nudges.
+- process/text-led posts,
+- Stories only when there is a useful reminder or link nudge.
 
-Use captions to add context, relevant keywords and one clear CTA. Keep the visual system consistent but do not overproduce every post.
+Use one clear CTA per post. Keep the visual system consistent without overproducing every asset.
 
-Suggested weekly rhythm:
-- 2 Reels,
-- 1 carousel,
-- 1 simple process/text post,
-- Stories only when there is something useful to point to.
-
-Bio link:
-`https://noshabanqureshi-arch.github.io/go/?src=instagram`
+Profile link:
+`https://noshabanqureshi-arch.github.io/ig/`
 
 Pin first:
-1. What Square Social Studio helps with.
-2. Five jobs content can do.
-3. What the $27 Starter actually includes.
+1. Post 1 — the problem may not be ideas.
+2. Post 2 — five jobs content can do.
+3. Post 5 — what the $27 Starter actually includes.
 
-### TikTok — discovery + message testing
-Treat TikTok as a fast message-testing channel, not a second polished Instagram feed.
+### TikTok — optional Reel cross-post / message test
+TikTok is not a second full content calendar.
 
-Use:
+Use only fresh finished vertical video when convenient:
 - direct hooks,
 - short teaching clips,
-- screen/process videos,
-- voiceover/B-roll,
-- simple native-feeling production.
+- screen/process video,
+- voiceover/B-roll.
 
-Reuse the same core ideas, but rewrite the first line/hook for TikTok rather than mechanically reposting captions.
+Upload the clean original video natively rather than downloading a watermarked version from another platform.
 
-Bio link:
-`https://noshabanqureshi-arch.github.io/go/?src=tiktok`
+Profile link:
+`https://noshabanqureshi-arch.github.io/tt/`
 
-First testing questions:
-- Which customer problem earns watch time?
-- Which hook earns profile visits?
-- Which teaching angle sends qualified link clicks?
+### Pinterest — evergreen reuse
+Pinterest is a low-frequency long-tail distribution layer.
 
-### Pinterest — evergreen search + website traffic
-Pinterest is the long-tail distribution layer.
+When capacity allows:
+- adapt selected educational/static campaign assets into Pins,
+- link to the most relevant resource or Starter page,
+- use descriptive board/Pin titles,
+- do not invent separate Pinterest topics just to maintain activity.
 
-Create at least one new original Pin per week and link Pins directly to the most relevant resource or Starter page.
+Profile link:
+`https://noshabanqureshi-arch.github.io/pin/`
 
-Use descriptive, search-friendly board names. Recommended starting boards:
+Starting boards:
 - Small Business Content Ideas
 - Social Media Content Planning
 - Content Pillars for Small Business
 - Reels and Short-Form Video Ideas
 - AI for Small Business Content
 
-Repurpose website resources and carousels into vertical Pins rather than inventing separate topics.
+### LinkedIn — optional reuse
+Use only when a process/strategy post transfers naturally to a professional/B2B audience.
 
-Bio/profile link:
-`https://noshabanqureshi-arch.github.io/go/?src=pinterest`
+Current optional candidates:
+- Post 3 — monthly workflow.
+- Post 17 — blank page → planned month.
 
-## Four-week campaign
+No separate LinkedIn production calendar is required.
 
-### Week 1 — problem recognition
-Publish from existing campaign copy:
-- Post 01 — idea problem Reel
-- Post 02 — five jobs carousel
-- Post 03 — monthly workflow/process
-- Post 04 — not a full-time creator
+---
 
-Question to answer:
-**Which problem/message gets the most qualified attention?**
+# Five-week campaign
 
-### Week 2 — method + product understanding
-- Post 06 — one question → four pieces
-- Post 07 — four content pillars
-- Post 08 — planning session
-- Post 05 — what is inside the Starter
+## Week 1 — clarify the problem
+- Post 1 — problem may not be ideas — free ideas
+- Post 2 — five jobs — free ideas
+- Post 3 — monthly workflow — Starter
+- Post 4 — not a full-time creator — free ideas
 
 Question:
-**Does showing the method increase product-page interest?**
+**Which problem statement creates the strongest qualified attention and destination activity?**
 
-### Week 3 — objection handling
-- Post 11 — do I need to post every day?
-- Post 12 — AI without invented expertise
-- Post 13 — who the Starter is for
-- Post 15 — actual PDF walkthrough
-
-Question:
-**Which objection or proof-of-product angle moves people closest to checkout?**
-
-### Week 4 — conversion + repeatability
-- Post 16 — four questions before posting
-- Post 17 — blank → planned workflow
-- Post 19 — what $27 gets you
-- Post 20 — plan before another random post
+## Week 2 — show the system
+- Post 5 — what is inside the Starter — Starter
+- Post 6 — one question → four pieces — free ideas
+- Post 7 — four content pillars — Starter
+- Post 8 — planning session — Starter
 
 Question:
-**Which direct conversion angle produces actual paid orders?**
+**Does showing the method increase product interest compared with broad idea content?**
 
-## Link routing
-Education/search intent:
-- route to the matching free resource.
+## Week 3 — reinforce the point of view
+- Post 9 — clear over clever — free ideas
+- Post 10 — plan before posting — Starter
+- Post 11 — do I need to post every day? — Starter
+- Post 12 — AI ≠ expertise — free ideas
 
-General profile visitors:
-- route to `/go/?src=<platform>`.
+Question:
+**Which belief/objection earns the most useful movement: frequency, planning or AI/voice?**
+
+## Week 4 — remove objections and explain scope
+- Post 13 — who the Starter is for — Starter
+- Post 14 — calm system vs content sprint — free ideas
+- Post 15 — what you actually receive — Starter
+- Post 16 — four questions before next month — Starter
+
+Question:
+**Does explicit product fit/scope improve qualified click or order behaviour?**
+
+## Week 5 — structure + direct conversion
+- Post 17 — blank → planned — Starter
+- Post 18 — Hook → Value → Example → Action — free ideas
+- Post 19 — what $27 gets you — Starter
+- Post 20 — plan before another random post — Starter
+
+Question:
+**After four weeks of useful teaching/trust content, which direct offer language produces the strongest qualified intent?**
+
+---
+
+# Link routing
+
+Education/idea traffic:
+`https://noshabanqureshi-arch.github.io/resources/30-social-media-content-ideas-small-business/`
 
 High purchase intent:
-- route to the focused Starter landing page with source/content UTMs.
+`https://noshabanqureshi-arch.github.io/lp/30-day-content-starter/`
 
-Do not send every piece to checkout.
+General profile visitors:
+- Instagram → `/ig/`
+- TikTok → `/tt/`
+- Pinterest → `/pin/`
 
-## What to measure before full analytics exists
-Per post:
-- platform,
-- format,
-- content angle,
+The shortcut pages preserve source tracking before routing to the shared `/go/` bio page.
+
+Do not send every post directly to checkout.
+
+# Tracking
+Every linkable campaign post uses:
+- `utm_campaign=first-1000`
+- `utm_medium=organic-social`
+- `utm_source=<platform>`
+- `utm_content=<post slug>`
+
+The private `/launch-dashboard/` generates the current destination URLs automatically.
+
+# What to measure before full analytics exists
+Per post/platform where available:
 - reach/views,
-- saves,
-- shares,
-- comments worth learning from,
+- saves/shares,
+- useful comments/questions,
 - profile visits,
-- link clicks where available.
+- link clicks/taps.
 
 Business source of truth:
-- Payhip paid orders,
+- Payhip paid Starter orders,
 - gross Starter revenue,
 - refunds/access issues.
 
-When analytics is active, add:
-- website sessions by source/content,
-- Starter landing-page sessions,
-- checkout clicks,
-- purchase rate.
+Use the browser-local scorecard in `/launch-command-center/` until Search Console/analytics is connected.
 
-## Weekly review rule
+Do not claim a specific post caused a purchase when attribution is not technically available.
+
+# Weekly review rule
 Spend no more than 20–30 minutes.
 
-For each week choose:
-- **KEEP** — message/format worth repeating,
-- **STOP** — low-value work,
-- **TEST** — one meaningful variable,
-- **SCALE** — proven message to reuse across platforms.
+Choose:
+- **KEEP** — message/format worth repeating.
+- **STOP** — low-value work.
+- **TEST** — one meaningful variable.
+- **SCALE** — a proven message worth reusing.
 
-Do not change offer, price, landing page, cadence and creative style all at once.
+Do not change the offer, price, landing page, cadence and creative style all at once.
 
-## Platform guidance notes
-Current official guidance supports this low-complexity approach:
-- TikTok for Business emphasizes consistent posting, platform-native storytelling and test-and-learn creative for SMBs.
-- Pinterest recommends creating original Pins regularly, adding a URL, scheduling content and using descriptive board names; it also explicitly supports repurposing existing assets.
-- Meta's 2026 Instagram guidance emphasizes clear format context, captions/keywords, calls to action and using AI as production support rather than a substitute for business judgment.
+# Current production truth
+- All 20 static/cover launch visuals are built in Canva.
+- Five Reel slots have current voiceover + shot-list plans in `/reel-production/`.
+- Fresh Reel audio/video is not fully produced yet.
+- Old R01–R06 Canva videos/audio belong to the retired offer and should not be published as current campaign assets.
 
-The business rule remains: platform advice is input, not a requirement to overproduce or increase owner hours.
+# Operating principle
+**Publish → verify → respond → record → review → improve one variable → repeat.**
