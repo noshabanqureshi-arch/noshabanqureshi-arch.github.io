@@ -1,9 +1,22 @@
 # Square Social Studio — Email Funnel
 
-This file is the working source of truth for the first automated welcome/nurture sequence.
+This file is the working source of truth for automated welcome, nurture, customer education and retention email.
 
 ## Brand voice
 Calm, capable, human, clear, practical, thoughtful. Use plain English, one main idea per email, one primary CTA, and no fake urgency.
+
+## Permission and list-management rules
+Before any ongoing commercial marketing sequence is activated:
+- use a documented consent basis appropriate to the message and recipient,
+- clearly identify Square Social Studio as the sender,
+- include the required business/contact information,
+- include a functioning unsubscribe mechanism,
+- retain consent/subscription records,
+- honour unsubscribe requests promptly,
+- collect only information needed for the stated purpose,
+- do not treat requesting a free file as automatic blanket consent to unrelated ongoing marketing when that has not been clearly disclosed and obtained.
+
+Because Square Social Studio operates from Alberta, the privacy/commercial-email implementation must be checked against the applicable Alberta and Canadian requirements whenever the email platform, list source or data flow changes.
 
 ## Entry point
 **Lead magnet:** 30 Content Ideas for Your Business
@@ -16,11 +29,15 @@ Value ladder:
 3. $69 — 30 Days of Content in 60 Minutes
 4. $149 — Show Up Simply™ Toolkit
 5. $349 — Show Up Simply™ Content System
+6. Planned recurring option — Square Social Vault
+7. Premium option — Done-for-You Content System, maximum 3 active partnerships
 
 ---
 
+## Welcome / nurture sequence
+
 ## Email 1 — Deliver the resource
-**Timing:** Immediately after confirmed opt-in
+**Timing:** Immediately after confirmed/valid opt-in or requested-delivery flow
 
 **Subject:** Your 30 content ideas are here
 
@@ -138,20 +155,111 @@ Choose the smallest level that solves the problem you have now. You can build fr
 
 ---
 
-## Behaviour rules
-- Purchasers of the $27 Starter should stop receiving generic $27 promotion and move toward the $69 mini-course or $149 Toolkit.
-- Purchasers of the $69 mini-course should be shown the $149 Toolkit primarily when they need additional reusable tools.
-- Toolkit buyers should be invited to the $349 flagship only when they want guided strategy and implementation.
-- Flagship buyers move to customer education, implementation reminders, product updates and advocacy/referral content rather than repeated acquisition emails.
-- Do not use false scarcity, false deadlines, invented testimonials or inflated claims.
+# Segmentation rules
+Do not send the same acquisition sequence forever.
 
-## Metrics
+### Free-resource subscriber
+Primary next step: $27 Starter.
+
+### $27 Starter buyer
+Stop generic $27 promotion. Move to implementation support, then the $69 mini-course or $149 Toolkit when relevant.
+
+### $69 mini-course buyer
+Prioritize course completion and implementation. Introduce the $149 Toolkit only when reusable tools solve the next problem.
+
+### $149 Toolkit buyer
+Focus on use and results. Invite to the $349 flagship when guided strategy/implementation is the next logical need.
+
+### $349 flagship buyer
+Move to customer education, implementation reminders, updates, Vault interest and advocacy/referral content—not repeated acquisition emails.
+
+### Vault member
+Prioritize usage, retention, monthly planning and community value. Do not constantly resell what membership already includes.
+
+### Premium done-for-you client
+Use service-specific onboarding and reporting communication. Do not place active clients into generic promotional automation unless they separately opted into it and it is useful.
+
+# Post-purchase education sequence
+Every paid offer should eventually have its own short customer-success sequence.
+
+Recommended structure:
+
+### Customer Email A — Access + next step
+Immediately after purchase/access.
+- Confirm what they bought.
+- Explain where to find it.
+- Tell them the first action to take.
+- Give support path.
+
+### Customer Email B — Quick win
+1–3 days later depending on offer.
+- Teach one small implementation step.
+- Link back to the relevant product/course section.
+
+### Customer Email C — Friction check
+After enough time to begin using the offer.
+- Ask what is unclear.
+- Answer a common obstacle.
+- Point to support/FAQ.
+
+### Customer Email D — Outcome/feedback
+After reasonable use time.
+- Ask whether the offer solved the problem they bought it for.
+- Ask what was most useful.
+- Ask what should be improved.
+
+### Customer Email E — Honest review / advocacy
+Only after the customer had a real opportunity to use the product.
+- Invite an honest review or recommendation.
+- Do not require positivity.
+- Ask permission separately before republishing a quote, image, business name or result in Square Social marketing.
+
+# Subject-line and CTA testing
+Use A/B tests when the email platform supports them.
+
+Rules:
+- change one important variable at a time,
+- define the primary metric before sending,
+- do not test misleading urgency,
+- record the result in the Square Social experiment log.
+
+Possible tests:
+- benefit-led subject line vs question-led subject line,
+- CTA wording,
+- teaching-first vs shorter email body,
+- send timing,
+- one visual vs no visual.
+
+# Accessibility and usability
+- Use descriptive link text rather than repeated “click here.”
+- Keep paragraphs short and scannable.
+- Maintain readable contrast and text size.
+- Add alt text to meaningful email images.
+- Do not put essential information only inside an image.
+- Use one primary CTA.
+- Test on mobile before activating an automation.
+
+# Behaviour rules
+- Purchasers should stop receiving acquisition messages for products they already own.
+- Do not use false scarcity, false deadlines, invented testimonials or inflated claims.
+- Do not buy email lists.
+- Do not add scraped/public email addresses to marketing automation merely because they are publicly visible.
+- Customer-service and transactional communication should remain distinct from unnecessary promotional volume.
+- Review the privacy notice and sender details whenever tools or data flows change.
+
+# Metrics
 Track:
-- opt-in conversion rate,
-- delivery email opens/clicks,
+- valid/consented subscriber growth,
+- delivery/bounce rate,
 - resource download clicks,
 - product-page clicks,
 - purchase conversion by offer,
 - unsubscribe rate,
+- spam/complaint signals,
 - revenue per subscriber,
-- movement from one value-ladder level to the next.
+- movement from one value-ladder level to the next,
+- repeat purchase,
+- post-purchase support questions,
+- customer feedback and review response.
+
+Open rate can be used as a rough diagnostic where available, but do not treat it as the sole indicator of success.
