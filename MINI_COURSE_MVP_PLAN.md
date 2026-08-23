@@ -1,15 +1,22 @@
 # Square Social Studio — Mini-Course MVP Plan
 
-Course: **30 Days of Content in 60 Minutes**
+Course: **Show Up Simply™: Plan Your Content Month**
+
+Subtitle: *A self-paced mini-course for building a realistic 30-day content plan in about an hour.*
+
 Planned price: **CAD $69**
-Status: curriculum/structure exists; not for sale until media and protected learner access pass QA.
+
+Status: five-lesson curriculum/structure exists; not for sale until media and protected learner access pass QA.
 
 ## Product rule
-This course should solve one problem:
+This course solves one problem:
 
 > Help a small-business owner turn one real business goal and existing expertise into a realistic month of content.
 
 Do not expand the first course into a comprehensive social-media certification.
+
+## Naming rule
+Avoid generic “30 days of content in X minutes” positioning as the primary product name. The branded title should remain tied to **Show Up Simply™** and the actual outcome: planning the month.
 
 ## Format
 Target total teaching time: **45–60 minutes**.
@@ -96,17 +103,19 @@ Learner finishes:
 
 ## Included tools
 MVP should include only assets that actually improve completion:
-- 30-Day Content Starter workbook,
-- companion planning sheets,
+- verified 30-Day Content Starter workbook,
+- existing companion PDF planning sheets,
 - reusable AI prompts,
 - course quick-start/checklist,
 - lesson transcripts/captions.
+
+Do not promise an editable Canva companion pack unless that specific customer file actually exists and passes QA.
 
 Do not add bonus files simply to increase the bundle count.
 
 ## Production reuse
 The course should be built from teaching Square Social already owns:
-- nine evergreen website resources,
+- ten evergreen website resources,
 - 30-Day Content Starter,
 - existing first-$1,000 post copy,
 - existing video scripts,
