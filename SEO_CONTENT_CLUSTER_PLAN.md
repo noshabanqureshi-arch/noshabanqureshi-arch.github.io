@@ -34,11 +34,10 @@ Primary intent:
 - what should a small business post,
 - small business post ideas.
 
-Links out to:
-- customer questions,
-- five content jobs,
+Live next steps:
 - monthly planning workflow,
-- live Starter.
+- printable-PDF status,
+- live Starter when the reader wants a complete planning system.
 
 ## Supporting page
 `/resources/turn-customer-questions-into-content/`
@@ -46,10 +45,9 @@ Links out to:
 Intent:
 - how to find content ideas from FAQs/customer questions.
 
-Links to:
-- 30 ideas page,
-- one-question/four-pieces repurposing page,
-- Starter.
+Live next steps:
+- one-question/four-pieces repurposing guide,
+- Starter when the reader wants to organize several source questions into a month.
 
 ---
 
@@ -63,11 +61,9 @@ Intent:
 - monthly content plan,
 - social media planning workflow.
 
-Links to:
-- content pillars,
+Live next steps:
 - five content jobs,
-- posting frequency,
-- Starter.
+- live Starter.
 
 ## Supporting page
 `/resources/how-to-choose-content-pillars-small-business/`
@@ -76,10 +72,9 @@ Intent:
 - content pillars for small business,
 - social media content pillars.
 
-Links to:
-- monthly workflow,
-- five content jobs,
-- 30 ideas.
+Live next steps:
+- monthly planning workflow,
+- live Starter.
 
 ## Supporting page
 `/resources/five-jobs-small-business-content/`
@@ -88,10 +83,9 @@ Intent:
 - types/jobs of small-business content,
 - educational/trust/promotional content mix.
 
-Links to:
-- 30 ideas,
-- pillars,
-- monthly workflow.
+Live next steps:
+- 30 free ideas organized by job,
+- live Starter.
 
 ## Supporting page
 `/resources/do-small-businesses-need-to-post-every-day/`
@@ -100,10 +94,9 @@ Intent:
 - how often should a small business post,
 - do I need to post every day.
 
-Links to:
-- monthly workflow,
-- 30 ideas,
-- measurement.
+Live next steps:
+- monthly planning workflow,
+- live Starter.
 
 ---
 
@@ -116,11 +109,9 @@ Intent:
 - repurpose social media content,
 - turn one idea into multiple posts.
 
-Links to:
-- customer questions,
-- short video,
-- AI,
-- monthly workflow.
+Live next steps:
+- customer-question source-material guide,
+- live Starter.
 
 ## Supporting page
 `/resources/short-video-without-the-performance/`
@@ -128,12 +119,11 @@ Links to:
 Intent:
 - short form video for small business,
 - simple Reels for business,
-- faceless/voiceover/B-roll video approaches.
+- voiceover/B-roll/text-led video approaches.
 
-Links to:
-- repurposing,
-- five content jobs,
-- planned Reels product only as a preview.
+Live next steps:
+- one-question/four-pieces repurposing guide,
+- live Starter.
 
 ## Supporting page
 `/resources/use-ai-social-media-without-sounding-generic/`
@@ -142,11 +132,9 @@ Intent:
 - AI social media content small business,
 - use AI without generic content.
 
-Links to:
-- customer questions,
-- repurposing,
-- brand voice product preview,
-- Starter where planning is the actual need.
+Live next steps:
+- customer-question source-material guide,
+- live Starter when planning is the actual bottleneck.
 
 ---
 
@@ -159,11 +147,38 @@ Intent:
 - social media metrics for small business,
 - what should I measure on social media.
 
-Links to:
-- monthly workflow,
-- posting frequency,
-- content jobs,
-- Starter review process.
+Live next steps:
+- monthly planning workflow,
+- live Starter when the reader needs a planning/review system.
+
+---
+
+# Guided learning paths on the Resources hub
+
+The hub now gives visitors four optional sequences so they do not have to browse ten unrelated cards.
+
+## Blank page → planned month
+1. customer questions,
+2. five content jobs,
+3. content pillars,
+4. monthly planning workflow.
+
+## Reuse before create
+1. one question → four pieces,
+2. short-form video,
+3. AI without generic content.
+
+## Sustainable posting rhythm
+1. 30 content ideas,
+2. posting-frequency guide,
+3. monthly planning workflow.
+
+## Plan → publish → learn
+1. five content jobs,
+2. measurement,
+3. monthly planning workflow.
+
+These paths are navigation aids, not mandatory funnels. A visitor should be able to stop after one useful free guide.
 
 ---
 
@@ -171,8 +186,8 @@ Links to:
 
 ## Education-first visitor
 Resource
-→ related resource
-→ Start Here diagnostic or Starter when planning becomes the bottleneck.
+→ one genuinely related free resource
+→ Starter only when planning/implementation becomes the next problem.
 
 ## High planning intent
 30 ideas / pillars / monthly workflow
@@ -195,13 +210,14 @@ Do not make every article point directly to every offer.
 ---
 
 # Internal-link rules
-1. Every resource should link to 2–4 genuinely related resources.
+1. Every resource should have at least one genuinely related free next step unless the article already functions as the final guide in a path.
 2. Use descriptive anchor text; avoid repeated generic “click here.”
 3. Link to the $27 Starter only when the reader's next problem is planning/implementation.
-4. Planned products can be linked as previews only when they are directly relevant; do not imply checkout exists.
-5. Keep one primary CTA near the end of each article.
-6. Resources should link back to the Resources hub or Start Here where useful.
-7. When a new article overlaps heavily with an existing one, update/expand the existing page instead of creating keyword cannibalization.
+4. Do not require the Starter CTA to be visually dominant over the free next step on education-first pages.
+5. Planned products can be linked as previews only when directly relevant; do not imply checkout exists.
+6. Keep the end-of-article choice small: usually one free next lesson + one contextual paid step.
+7. The Resources hub should carry the broader navigation burden instead of stuffing every article with four or five links.
+8. When a new article overlaps heavily with an existing one, update/expand the existing page instead of creating keyword cannibalization.
 
 ---
 
