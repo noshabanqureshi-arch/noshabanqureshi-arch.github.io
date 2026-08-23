@@ -15,7 +15,7 @@ The GitHub Pages site includes:
 - Digital product catalog
 - Live $27 30-Day Content Starter
 - Focused campaign landing page for the Starter
-- Six evergreen educational resources plus the Resources hub
+- Nine evergreen educational resources plus the Resources hub
 - Self-paced course library
 - Planned Square Social Vault
 - Limited done-for-you service (maximum 3 active clients)
