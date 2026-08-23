@@ -16,7 +16,7 @@ Working purchase target: **4%**.
 - 1,000 visits × 4% = 40 sales
 - 40 × $27 = $1,080 CAD gross
 
-This 4% target is a test assumption, not a forecast or guarantee. Current Shopify guidance for low-ticket ecommerce landing pages under $150 cites roughly 3–5% as a general conversion range. Measure Square Social Studio's actual rate and replace the assumption with real data as soon as possible.
+This 4% target is a test assumption, not a forecast or guarantee. Measure Square Social Studio's actual rate and replace the assumption with real data as soon as possible.
 
 ## Funnel
 
@@ -79,9 +79,12 @@ A separate `FIRST_1000_CONTENT_PLAN.md` contains the 20-post acquisition campaig
 The business can start selling the $27 Starter when all of the following are true:
 - final workbook PDF packaged
 - final companion PDF packaged
-- customer-safe Canva duplicate link inserted
+- separate customer-facing Canva copy created
+- Canva customer template link generated and inserted
 - branded support email inserted
+- business support phone inserted into Stripe
 - privacy / terms / licence finalized with required business details
+- Stripe onboarding completed and `charges_enabled=true`
 - hosted Stripe checkout created
 - secure automatic delivery connected
 - mobile checkout tested
@@ -102,14 +105,20 @@ The business can start selling the $27 Starter when all of the following are tru
 - live payment link intentionally deactivated until delivery QA is complete
 - analytics event map created
 - 20-post first-$1,000 acquisition campaign created
+- separate 10-page customer-facing Canva companion copy created and filed in Products
+- exact Canva template-link handoff documented
+- Stripe live-account requirements audited
 
 ### Blocking public checkout
-- customer-safe Canva duplicate link still required
+- Canva **template link** must be generated from the customer copy in Canva (the connector cannot publish this permission)
 - branded business support/privacy email still required
+- dedicated support phone still required for Stripe onboarding
+- Stripe terms acceptance must be completed personally by the account owner
+- Stripe currently reports `charges_enabled=false`, `payouts_enabled=false`, `details_submitted=false`
 - secure automatic delivery platform still needs connection
 - final legal business details still required
 - analytics property / measurement ID still needs connection
 - one end-to-end test purchase is still required after delivery is connected
 
 ## Rule
-Do not reactivate or publish the live Stripe buy link until a successful test proves that a buyer can pay, receive access and get support without manual intervention.
+Do not reactivate or publish the live Stripe buy link until Stripe reports charges enabled and a successful test proves that a buyer can pay, receive access and get support without manual intervention.
