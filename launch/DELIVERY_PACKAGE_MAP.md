@@ -1,47 +1,78 @@
 # Square Social Studio — Delivery Package Map
 
-## Ready customer ZIPs
+## LIVE CUSTOMER PACKAGE
 
+### SSS-P01 — 30-Day Content Starter
+Payhip delivery: **LIVE**
+
+Final package:
+`SSS-P01_30-Day-Content-Starter-FINAL.zip`
+
+Contents:
+- 24-page 30-Day Content Starter workbook
+- 11-page companion planning pack
+- Start Here instructions
+- customer licence
+
+Launch edition is PDF-only. No Canva account or editable Canva template is required.
+
+Payhip product:
+`https://payhip.com/b/1gEcw`
+
+QA:
+- mobile 100%-off order succeeded;
+- ZIP downloaded successfully through Payhip.
+
+## FREE RESOURCE — READY FOR PAYHIP UPLOAD
+
+### SSS-FREE01 — 30 Content Ideas for Your Business
+Final package:
+`SSS-FREE01_30-Content-Ideas.zip`
+
+Cover:
+`SSS-FREE01_30-Content-Ideas-Cover.png`
+
+ZIP contents:
+- 8-page `30-Content-Ideas-for-Your-Business.pdf`
+- `START-HERE.txt`
+
+Payhip product still needs to be created at $0. Exact instructions are in `FREEBIE_PAYHIP_HANDOFF.md`.
+
+## OTHER READY / PREPARED DOWNLOAD PACKAGES
+
+Prepared customer ZIPs include:
 - `SSS-P02_Brand-Voice-Clarity-Workbook.zip`
 - `SSS-P03_Caption-Vault-120-Prompts.zip`
 - `SSS-P04_Reels-Made-Simple.zip`
 - `SSS-P05_Monthly-Content-Dashboard.zip`
 - `SSS-P06_Local-Business-Launch-Pack.zip`
 
-Each package contains:
-- the customer PDF;
-- `START-HERE.txt`;
-- `CUSTOMER-LICENCE.txt`.
+Do not publish those checkouts solely because ZIPs exist. Each product needs its own product-page scope check and Payhip delivery QA.
 
-## Pre-launch bundle
-
-- `SSS-B01_Show-Up-Simply-Toolkit_PRELAUNCH.zip`
-
-Current contents:
-- Brand Voice Clarity Workbook
-- Caption Vault: 120 Prompts
-- Reels Made Simple
-- Monthly Content Dashboard Quick Start
-- Local Business Launch Pack
-- Show Up Simply™ Toolkit Guide
-- Start Here
-- Customer Licence
-
-The final branded 30-Day Content Starter export must be added before this bundle is sold.
-
-## Not yet customer-ready
-
-### SSS-P01 — 30-Day Content Starter
-The final branded master has been rebuilt, but the customer PDF export and final companion export still need to be rendered and verified.
+## PRODUCT-SPECIFIC REMAINING WORK
 
 ### SSS-P05 — Monthly Content Dashboard
-The PDF quick-start package is ready. Before sale, create a customer-safe duplicable Notion template link and confirm it does not expose the owner master.
+PDF quick-start package exists. Before public sale:
+- create/test a customer-safe duplicable Notion template path;
+- confirm owner/master permissions are not exposed;
+- run a customer-order/access test.
 
-### SSS-C01 — Mini-course
-Five lesson scripts and course master exist. MP3/MP4 lesson media, captions/transcripts and hosting remain.
+### SSS-B01 — Show Up Simply™ Toolkit
+Existing pre-launch bundle must be rebuilt/QA'd against the final current SSS-P01 package before sale.
 
-### SSS-C02 — Flagship
-15-lesson curriculum/master exists. Audio/video, captions/transcripts and hosting remain.
+### SSS-C01 — 30 Days of Content in 60 Minutes
+Curriculum/scripts exist. Still needs:
+- lesson media;
+- captions/transcripts;
+- course hosting/access;
+- student QA.
 
-## Delivery principle
-Paid files must never be stored in public GitHub. Public GitHub contains sales pages and internal launch documentation only; customer files should be delivered from a protected commerce/course platform.
+### SSS-C02 — Show Up Simply™ Content System
+Curriculum/master exists. Still needs:
+- lesson media;
+- captions/transcripts;
+- course hosting/access;
+- student QA.
+
+## DELIVERY PRINCIPLE
+Paid customer files and private course media must not be stored in public GitHub. GitHub contains the storefront and non-secret launch documentation. Payhip or another protected delivery/course layer should provide customer access.
