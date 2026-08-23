@@ -28,13 +28,11 @@ Status key:
 - ✅ First evergreen resource: `/resources/turn-customer-questions-into-content/`.
 - ✅ Expanded `sitemap.xml`; `robots.txt` already existed and is correct.
 - ✅ Dedicated focused campaign landing page: `/lp/30-day-content-starter/`.
+- ✅ `FIRST_1000_CAMPAIGN_ROUTING.md` now separates education, product-research and conversion destinations rather than sending every visitor to one page.
 - ✅ Canonical URLs on the main SEO/conversion pages.
 - ✅ Core navigation normalized across the main site.
-- ✅ Done-for-You pre-qualification/application-question page at `/services/done-for-you/apply/`.
-- ✅ Course and Vault pages clearly distinguish planned offers from live checkout.
-- ✅ Contact/launch-status page now reflects live, package-ready, planned and external-setup states.
-- 🟡 Analytics/event tracking prepared in the measurement plan; waiting for a real analytics property/ID and final privacy implementation.
-- 🟡 The free lead-magnet ZIP and cover are finished in Dropbox, but the public download remains blocked until the intended $0 Payhip delivery link is connected.
+- 🟡 Analytics/event tracking prepared in the measurement plan; a real analytics property/ID is still not connected.
+- 🟡 Free lead-magnet page and package are finished, but the $0 Payhip delivery URL is still an external activation gate.
 
 ---
 
@@ -81,7 +79,7 @@ Status key:
 - ✅ `CUSTOMER_RETENTION_REPUTATION_PLAYBOOK.md` covers customer service, reviews, UGC, reputation and crisis levels.
 - ✅ Honest review/referral/UGC permission rules documented.
 - ✅ Vault community model designed around implementation rather than message volume.
-- ✅ `CREATOR_PARTNERSHIP_POLICY.md` requires target-audience/brand fit, a defined funnel role, measurement and a written agreement covering scope, timeline, compensation, content rights, approvals, disclosure/compliance and termination.
+- ✅ `CREATOR_PARTNERSHIP_POLICY.md` now requires target-audience/brand fit, a defined funnel role, measurement and a written agreement covering scope, timeline, compensation, content rights, approvals, disclosure/compliance and termination.
 - ⏭ Creator partnerships remain optional and should only activate after a proven offer/campaign and acceptable budget/workload.
 
 ---
@@ -105,13 +103,14 @@ Status key:
 - ✅ Three commercial customer segments defined in `BUSINESS_MARKETING_SYSTEM.md`.
 - ✅ Content inventory/audit and Keep/Update/Repurpose/Retire process in `CONTENT_CAMPAIGN_PLAYBOOK.md`.
 - ✅ Email funnel segmented by customer status and ownership in `EMAIL_FUNNEL.md`.
+- ✅ A Square Social Studio Mailchimp account already exists; the email platform itself is selected.
+- ✅ `EMAIL_PLATFORM_ACTIVATION.md` documents the remaining sender/consent/unsubscribe/segmentation gates.
 - ✅ Post-purchase/customer-success email sequence designed.
 - ✅ Consent, sender identification, unsubscribe, privacy and data-minimization guardrails documented.
 - ✅ Email accessibility standards documented.
 - ✅ One-variable A/B testing and experiment log in `MEASUREMENT_EXPERIMENT_PLAN.md`.
 - ✅ Paid-media gate prevents spending on unvalidated offers/messages.
-- ✅ Premium-service pre-qualification happens without collecting applicant data before a secure destination exists.
-- 🟡 Ongoing marketing automation waits for the final email platform, branded sender details and compliant implementation.
+- 🟡 Marketing automation remains OFF until branded sender identity/business mailing details, consent capture, unsubscribe and privacy-flow testing are complete.
 
 ---
 
@@ -161,6 +160,7 @@ Status key:
 - ✅ Integrated-marketing rule: one campaign idea adapted consistently across selected channels.
 - ✅ Behavioural-economics application is limited to ethical friction reduction: fewer choices, clearer defaults, transparent pricing, obvious next steps and simpler checkout/learning paths. No manipulative dark patterns or fake urgency.
 - ✅ `QUARTERLY_STRATEGY_REVIEW.md` implements SWOT, competitive/category review, STP, 7Ps, funnel, customer voice, channel performance, capacity and experiment review every quarter.
+- ✅ `CLIENT_DELIVERY_CAPACITY_SYSTEM.md` turns the 4–5-hour weekday constraint into a formal owner-hour budget, 3-client ceiling, capacity alarms, onboarding flow, batching and delegation rules.
 
 ---
 
@@ -204,19 +204,21 @@ Status key:
 10. **Capacity is a business constraint.** Scale digital intellectual property and recurring products before expanding client count or owner hours.
 11. **Partnerships require fit and contracts.** Creator reach is useful only when audience, brand, disclosure, rights, measurement and workload make sense.
 12. **Review the situation quarterly.** SWOT and competitive review inform what to double down on, fix, test, stop and protect.
+13. **Calendar over inbox.** Premium-client delivery follows a monthly batch rhythm so reactive work does not control the owner’s day.
+14. **Real data or no claim.** Client reports stop and request missing analytics rather than estimating results.
 
 ---
 
 # Dependencies that still block full activation
 These are not strategy gaps; they require external setup or finished assets.
 
-1. Branded Square Social Studio email/support address.
-2. Final email-marketing platform and compliant opt-in/unsubscribe implementation.
-3. $0 Payhip delivery connection for the finished free-resource ZIP.
+1. Final Square Social Studio custom-domain/branded support-sender identity and suitable business mailing address.
+2. Mailchimp sender/consent/unsubscribe configuration and privacy-flow QA before marketing automation is switched on.
+3. $0 Payhip product URL for the finished free-resource package.
 4. Real analytics property/measurement ID and final tracking/privacy configuration.
-5. Finished mini-course media and tested protected course-access flow.
+5. Finished mini-course media and tested protected course access.
 6. Vault platform/content delivery before paid membership opens.
-7. Secure premium-service application submission backend/destination; the fit check and application questions are already live.
+7. Secure destination/backend for the done-for-you application; the fit check and application questions are already live.
 8. Real customer reviews/case examples before any proof/testimonial section is added.
 
 Do not fabricate or bypass any of these dependencies merely to make the website look more complete.
