@@ -11,6 +11,63 @@ Why this fits the current business:
 - Start on the free plan while validating demand, then review paid plan economics as revenue grows.
 - Course video hosting can be added, or external video embeds can be used.
 
+## First live product
+Launch **SSS-P01 — 30-Day Content Starter — $27 CAD** first.
+
+Current launch assets already built:
+- current 20-page workbook
+- current 10-page companion planning pack
+- final customer ZIP: `SSS-P01_30-Day-Content-Starter.zip`
+- customer licence
+- Start Here instructions
+- updated website sales page
+- thank-you page
+- first-$1,000 traffic and KPI plan
+- inactive Stripe Payment Link retained as a fallback / reference, not public
+
+### Exact Payhip setup for SSS-P01
+- Product type: Digital Product
+- Product title: `30-Day Content Starter`
+- Customer-facing brand: `Square Social Studio`
+- Price: `27.00 CAD`
+- SKU/internal reference: `SSS-P01`
+- Upload: final `SSS-P01_30-Day-Content-Starter.zip`
+- Short promise: `Plan one clear month of useful content around your audience, your real expertise and one business goal.`
+- Primary outcome: customer finishes with a 30-day content bank and repeatable monthly planning system.
+- Delivery: Payhip protected download after successful payment.
+- Licence: one purchaser / one owned business; source files and template links may not be redistributed.
+- Results disclaimer: no guarantee of followers, reach, leads, sales or revenue.
+- Refund handling: disclose digital-product refund terms clearly before purchase and review technical-access issues individually.
+- Test method: complete a 100%-off test order before public launch.
+
+### SSS-P01 launch gate
+Do not publish the website Buy button until all are true:
+- Payhip product exists
+- Stripe is fully activated and charges are enabled
+- Payhip is connected to the activated payment account
+- $27 CAD price displays correctly
+- final ZIP is uploaded and downloadable
+- customer-safe Canva access is inserted or the launch description is limited to the included files
+- branded support/privacy email is present
+- privacy / terms / licence are linked
+- one mobile and one desktop test order pass
+
+## Current Stripe status
+The Stripe account exists but is not yet activated for live charges.
+
+Stripe currently reports:
+- `charges_enabled = false`
+- `payouts_enabled = false`
+- `details_submitted = false`
+
+Owner onboarding still requires:
+- business profile product description
+- business website URL
+- support phone
+- Stripe Terms of Service acceptance
+
+Do not turn on public checkout until Stripe reports charges enabled.
+
 ## Product map
 | Internal SKU | Product | Type | CAD Price | Build status |
 |---|---|---|---:|---|
@@ -22,15 +79,16 @@ Why this fits the current business:
 | SSS-P05 | Monthly Content Dashboard | Digital product / Notion template | $28 | Built |
 | SSS-P06 | Local Business Launch Pack | Digital product | $42 | Built |
 | SSS-C01 | 30 Days of Content in 60 Minutes | Course + downloads | $69 | Curriculum/assets built; video production pending |
-| SSS-B01 | Show Up Simply™ Toolkit | Bundle | $149 | Built; packaging/delivery QA pending |
+| SSS-B01 | Show Up Simply™ Toolkit | Bundle | $149 | Built; final delivery QA pending |
 | SSS-C02 | Show Up Simply™ Content System | Flagship course + Toolkit | $349 | 15-lesson course master built; video production pending |
 
 ## Account setup that requires the business owner
 1. Create/verify the Payhip account in the legal business owner's name.
-2. Connect the owner's Stripe and/or PayPal account.
-3. Enter legal business/contact/tax information.
-4. Configure payout and tax settings.
-5. Confirm the customer-facing business name is Square Social Studio.
+2. Complete Stripe onboarding until charges are enabled.
+3. Connect the activated Stripe and/or PayPal account to Payhip.
+4. Enter legal business/contact/tax information.
+5. Configure payout and tax settings.
+6. Confirm the customer-facing business name is Square Social Studio.
 
 Do not put payment secrets, API keys or banking information in GitHub.
 
