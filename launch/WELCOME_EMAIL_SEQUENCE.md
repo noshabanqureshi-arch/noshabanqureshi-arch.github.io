@@ -4,12 +4,12 @@ Purpose: move a consenting subscriber from **30 Content Ideas for Your Business*
 
 Brand voice: calm, capable, human, practical. Clear over clever. One primary CTA per email.
 
-**Compliance note:** only activate after the selected email platform is configured with the required sender identity/contact information, consent records and unsubscribe mechanism.
+**Compliance gate:** this sequence is copy-ready but must NOT be activated until a permission-based email platform is configured with the required sender identity/contact information, consent records and unsubscribe mechanism. The $0 Payhip freebie may be delivered transactionally before this sequence is activated.
 
 ---
 
-## Email 1 — Deliver the guide
-**Timing:** immediately after signup
+## Email 1 — Deliver / orient
+**Timing:** immediately after marketing signup or as the first welcome email after valid consent
 
 **Subject:** Your 30 content ideas are here
 
@@ -19,7 +19,7 @@ You need a few useful things to say—and a system for turning them into differe
 
 Your **30 Content Ideas for Your Business** guide is ready here:
 
-[DOWNLOAD / ACCESS LINK]
+[FREEBIE PAYHIP / ACCESS LINK — INSERT AFTER THE $0 PRODUCT IS CREATED]
 
 Start by circling the five ideas that sound most relevant to the questions your customers already ask. Do not try to use all thirty at once.
 
@@ -78,13 +78,13 @@ For that, you need four things:
 
 That is the difference between collecting ideas and building a content system.
 
-The **30-Day Content Starter** walks you through that process and gives you the workbook, 30-day framework, hooks, CTAs, AI prompts and editable Canva planning tools.
+The **30-Day Content Starter** walks you through that process. The current edition includes a 24-page workbook and an 11-page companion planning pack with content pillars, a 30-idea framework, hooks, CTAs, short-form video guidance, reusable AI prompts and monthly review tools.
 
-It is the next step if you liked the free ideas but still find yourself wondering how to turn them into a complete month.
+It is delivered as a finished PDF package. No Canva account is required.
 
 **CTA:** See the 30-Day Content Starter — $27 CAD.
 
-[PRODUCT LINK]
+https://noshabanqureshi-arch.github.io/products/30-day-content-starter/?utm_source=email&utm_medium=email&utm_campaign=first-1000&utm_content=welcome-email-3
 
 — Square Social Studio
 
@@ -117,7 +117,7 @@ You should not need a completely new strategy every Monday.
 
 **CTA:** Explore the Show Up Simply™ system.
 
-[OFFERS LINK]
+https://noshabanqureshi-arch.github.io/offers/?utm_source=email&utm_medium=email&utm_campaign=first-1000&utm_content=welcome-email-4
 
 — Square Social Studio
 
@@ -136,25 +136,26 @@ Start with the bottleneck you have now.
 Use this when you need the month planned.
 
 **$69 — 30 Days of Content in 60 Minutes**
-Use this when you want the Starter plus short guided lessons.
+Use this when you want the Starter plus short guided lessons after the course opens.
 
 **$149 — Show Up Simply™ Toolkit**
-Use this when you want the complete set of tools for brand voice, planning, captions, Reels, organization and launches.
+Use this when you want the connected toolset after the bundle delivery is fully tested.
 
 **$349 — Show Up Simply™ Content System**
-Use this when you want the full guided implementation across strategy, production, publishing and measurement.
+Use this when you want the full guided implementation after the flagship opens.
 
 Clear is better than complicated. Choose the smallest level that solves the problem you have.
 
 **CTA:** Compare all Square Social Studio offers.
 
-[OFFERS LINK]
+https://noshabanqureshi-arch.github.io/offers/?utm_source=email&utm_medium=email&utm_campaign=first-1000&utm_content=welcome-email-5
 
 — Square Social Studio
 
 ---
 
 ## Ongoing nurture after the welcome sequence
+
 Use approximately 70–80% useful educational/process content and 20–30% relevant offer content rather than sending constant promotions.
 
 Recurring themes:
@@ -163,9 +164,19 @@ Recurring themes:
 - brand voice examples;
 - caption before/after examples;
 - simple Reel workflows;
-- Canva consistency tips;
+- content consistency tips;
 - monthly content reviews;
 - launch lessons;
 - product/course updates when relevant.
 
-Every message should map to a content pillar, funnel stage and primary CTA before it is scheduled.
+Every message should map to a content pillar, funnel stage and one primary CTA before it is scheduled.
+
+## Activation checklist
+Before turning this sequence on, confirm:
+- valid marketing consent is captured and recorded;
+- Square Social Studio sender identity is shown;
+- a valid business mailing address is in the footer;
+- a branded sender/support method is active;
+- unsubscribe works;
+- the freebie access link is inserted in Email 1;
+- the sequence is tested on mobile.
