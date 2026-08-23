@@ -14,10 +14,10 @@ The GitHub Pages site includes:
 - Browser-only `Start Here` diagnostic that recommends the smallest useful next step without collecting personal data
 - Digital product catalog
 - Live $27 30-Day Content Starter
-- Focused campaign landing page for the Starter
+- Focused campaign landing page for the Starter with fit/not-fit and FAQ objection handling
 - Nine evergreen educational resources plus the Resources hub
 - Self-paced course library
-- Planned Square Social Vault
+- Planned low-workload Square Social Vault MVP
 - Limited done-for-you service (maximum 3 active clients)
 - Browser-only done-for-you fit check / application-prep page
 - Structured 14-day premium-client onboarding explanation and calendar-driven monthly delivery cycle
@@ -39,6 +39,9 @@ These internal repository documents keep the business strategy consistent:
 - `CONTENT_CAMPAIGN_PLAYBOOK.md` — campaign briefs, content audits, repurposing, video, SEO and landing pages
 - `FIRST_1000_CAMPAIGN_ROUTING.md` — destination and UTM rules for the live $27 Starter campaign
 - `COURSE_MEDIA_PRODUCTION.md` — course/video production and accessibility workflow
+- `MINI_COURSE_MVP_PLAN.md` — five-lesson, 45–60 minute self-paced first-course production plan and QA gate
+- `FLAGSHIP_CURRICULUM_PLAN.md` — documented 15-lesson flagship curriculum and learner outputs
+- `VAULT_MVP_PLAN.md` — low-workload recurring offer design using 12 source prompts, repurposing and a growing foundation library
 - `EMAIL_FUNNEL.md` — nurture, segmentation, customer-success and permission rules
 - `EMAIL_PLATFORM_ACTIVATION.md` — verified Mailchimp status and the safe activation sequence
 - `SEARCH_VISIBILITY_ACTIVATION.md` — Search Console, sitemap/indexing, structured-data and branded-domain migration checklist
@@ -48,7 +51,7 @@ These internal repository documents keep the business strategy consistent:
 - `MEASUREMENT_EXPERIMENT_PLAN.md` — KPIs, funnel measurement, video/email metrics and A/B tests
 - `QUARTERLY_STRATEGY_REVIEW.md` — SWOT, competitive/category review, STP, 7P, capacity and quarterly decisions
 - `CREATOR_PARTNERSHIP_POLICY.md` — creator/influencer selection, agreements, rights, disclosure and measurement
-- `EXTERNAL_ACTIVATION_ORDER.md` — exact provider-dependent activation sequence from freebie → email → search/analytics → course/Vault
+- `EXTERNAL_ACTIVATION_ORDER.md` — exact provider-dependent activation sequence from freebie → email → search/analytics → verified product/course delivery → Vault
 - `CONESTOGA_STRATEGY_AUDIT.md` — folder-by-folder mapping from Conestoga coursework into the real business
 
 ## Commercial model
@@ -56,9 +59,20 @@ Square Social Studio is deliberately designed not to become a high-volume agency
 
 Premium-service scaling rule: improve pricing, scope, batching and production leverage before adding owner hours. The default business design keeps client count at three and grows the rest of revenue through intellectual property and recurring products.
 
+## Readiness rule
+A sales page or product specification does not mean a customer deliverable exists.
+
+Current verified customer-file status:
+- live/tested: $27 30-Day Content Starter,
+- package-ready but provider connection pending: free 30 Content Ideas,
+- planned/specification stage: five additional low-ticket Toolkit components unless/until finished private customer files are verified,
+- curriculum documented but production/access pending: $69 mini-course and $349 flagship,
+- recurring MVP documented but member delivery/billing not active: Vault.
+
 ## Payment rule
 - Keep the tested $27 Starter on Payhip.
 - Keep one-time digital products/courses on a protected delivery platform when that reduces owner admin.
+- Live Square Social Stripe is activated for payments/payouts, but future offers do not need to move there prematurely.
 - Use Stripe Billing for the future Vault only after the membership delivery/access system passes QA.
 - Use simple Stripe recurring billing or hosted invoices for the maximum three premium clients rather than building a custom payment stack.
 
