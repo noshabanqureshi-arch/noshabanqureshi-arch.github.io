@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Start Here | Square Social Studio</title>
+<meta name="description" content="A private browser-only diagnostic that helps small-business owners choose the Square Social resource, product or service that matches their current content bottleneck.">
+<link rel="canonical" href="https://noshabanqureshi-arch.github.io/start-here/">
+<link rel="stylesheet" href="/assets/brand-system.css"><link rel="icon" href="/favicon.svg">
+<style>
+.wrap{max-width:1040px;margin:auto;padding:68px 7vw 90px}.quiz{display:grid;gap:18px;margin-top:34px}.q{background:#fffdf8;border:1px solid #dcd8ce;border-radius:20px;padding:24px}.q h3{margin:0 0 15px}.choices{display:grid;gap:10px}.choices label{display:flex;gap:10px;align-items:flex-start;padding:11px 13px;border:1px solid #dcd8ce;border-radius:12px;cursor:pointer}.result{margin-top:30px;padding:28px;background:#f8f6f0;border-left:5px solid #d9b66d}.result h2{margin-top:0}.result-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}.privacy{margin-top:22px;color:#657083;font-size:14px}.status{display:inline-block;padding:7px 11px;border-radius:999px;background:#dfece5;font-size:11px;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<nav class="sss-nav" aria-label="Main navigation"><a href="/">Square Social Studio</a><a href="/start-here" aria-current="page">Start Here</a><a href="/catalog">Shop</a><a href="/courses">Courses</a><a href="/vault">Vault</a><a href="/services/done-for-you">Done for You</a><a href="/resources">Resources</a><a href="/about">About</a><a href="/contact">Contact</a></nav>
+<main id="main">
+<section class="sss-hero"><div><p class="sss-kicker">Private browser-only diagnostic</p><span class="status">No data is sent</span><h1>What does your business need next?</h1><p>Answer five quick questions. The result stays in your browser and points you toward the smallest Square Social resource or offer that matches the bottleneck you have now.</p></div></section>
+<section class="wrap"><form id="diagnostic" class="quiz">
+<div class="q"><h3>1. What is taking the most time right now?</h3><div class="choices"><label><input type="radio" name="q1" value="plan"> Deciding what to post and planning the month</label><label><input type="radio" name="q1" value="voice"> Making captions sound consistent and human</label><label><input type="radio" name="q1" value="video"> Creating short-form video</label><label><input type="radio" name="q1" value="measure"> Knowing what is actually working</label><label><input type="radio" name="q1" value="outsource"> Doing the content work myself at all</label></div></div>
+<div class="q"><h3>2. How developed is your content system?</h3><div class="choices"><label><input type="radio" name="q2" value="start"> I mostly start from scratch</label><label><input type="radio" name="q2" value="some"> I have ideas and assets but no repeatable workflow</label><label><input type="radio" name="q2" value="system"> I have a workflow but need better tools or execution</label><label><input type="radio" name="q2" value="outsource"> The system exists; I want to hand off production</label></div></div>
+<div class="q"><h3>3. What level of support feels realistic?</h3><div class="choices"><label><input type="radio" name="q3" value="free"> Free education first</label><label><input type="radio" name="q3" value="low"> A low-cost download</label><label><input type="radio" name="q3" value="learn"> A self-paced course or toolkit</label><label><input type="radio" name="q3" value="outsource"> A premium monthly partnership</label></div></div>
+<div class="q"><h3>4. Which statement is closest to your business?</h3><div class="choices"><label><input type="radio" name="q4" value="start"> I am still figuring out the offer or customer</label><label><input type="radio" name="q4" value="plan"> I know the offer and customer, but content is inconsistent</label><label><input type="radio" name="q4" value="learn"> The business is established and I want a stronger system</label><label><input type="radio" name="q4" value="outsource"> The business is established and my time is more valuable elsewhere</label></div></div>
+<div class="q"><h3>5. What result would feel most useful this month?</h3><div class="choices"><label><input type="radio" name="q5" value="plan"> A realistic 30-day content plan</label><label><input type="radio" name="q5" value="voice"> Clearer brand voice and captions</label><label><input type="radio" name="q5" value="video"> A repeatable Reel/video workflow</label><label><input type="radio" name="q5" value="measure"> Better decisions from real performance data</label><label><input type="radio" name="q5" value="outsource"> Get content production off my plate</label></div></div>
+</form>
+<div class="result" id="result" aria-live="polite"><h2>Your recommendation will appear here.</h2><p>Answer the questions above. You do not need to enter your name, email, business name or any customer information.</p></div>
+<p class="privacy">This diagnostic uses only the choices on this page. It does not submit the answers to Square Social Studio, store them in a database or add you to an email list.</p>
+</section>
+</main>
+<script>
+const form=document.getElementById('diagnostic');const result=document.getElementById('result');
+function recommend(){const data=new FormData(form);if([...data.keys()].length<5){result.innerHTML='<h2>Keep going.</h2><p>Answer all five questions for a recommendation.</p>';return;}const vals=[...data.values()];const count=v=>vals.filter(x=>x===v).length;let key='plan';if(count('outsource')>=2)key='outsource';else if(count('voice')>=2)key='voice';else if(count('video')>=2)key='video';else if(count('measure')>=2)key='measure';else if(count('learn')>=2)key='learn';else if(count('free')>=1&&count('low')===0&&count('learn')===0)key='free';
+const r={
+free:['Start with the free Resources library','You are still in the learning/clarifying stage. Use the free articles to solve one bottleneck before buying a larger system.','/resources','Browse free resources'],
+plan:['Start with the 30-Day Content Starter','Your biggest need is structure: one goal, one audience, repeatable pillars and a realistic month. The $27 Starter is the only paid self-serve checkout currently live.','/products/30-day-content-starter','See the $27 Starter'],
+voice:['Use the Brand Voice resource path','Your bottleneck is consistency. Start with the free AI/voice education now; the Brand Voice Clarity Workbook is a preview and will not open for sale until delivery is tested.','/resources/use-ai-without-sounding-generic','Read the free voice/AI guide'],
+video:['Use the short-form video resource path','Your bottleneck is production, not strategy. Start with the free short-video workflow now; Reels Made Simple remains a preview until customer delivery is ready.','/resources/short-form-video-without-the-performance','Read the video guide'],
+measure:['Start with measurement before creating more','You already have enough activity to benefit from better decisions. Review business-linked KPIs before adding more content or channels.','/resources/what-should-small-business-measure','Read the measurement guide'],
+learn:['Preview the guided learning path','You are ready for more than a single download. The mini-course, Toolkit and flagship are being completed, but enrollment remains closed until their delivery/access systems pass QA.','/courses','Preview the learning path'],
+outsource:['Check fit for Done-for-You','Your answers suggest time is the main constraint. The premium service is deliberately limited to three active clients and uses a low-meeting monthly workflow.','/services/done-for-you/apply','Run the premium fit check']};const x=r[key];result.innerHTML='<h2>'+x[0]+'</h2><p>'+x[1]+'</p><div class="result-actions"><a class="sss-btn" href="'+x[2]+'">'+x[3]+'</a><a class="sss-btn sss-btn-secondary" href="/offers">Compare all offers</a></div>';}
+form.addEventListener('change',recommend);
+</script>
+</body>
+</html>
