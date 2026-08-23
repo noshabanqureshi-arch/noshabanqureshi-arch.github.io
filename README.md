@@ -32,8 +32,10 @@ These internal repository documents keep the business strategy consistent:
 - `BUSINESS_MARKETING_SYSTEM.md` — audience segments, STP, 7Ps, channel roles and business model
 - `CLIENT_DELIVERY_CAPACITY_SYSTEM.md` — 3-client ceiling, owner-hour budget, onboarding, monthly delivery rhythm, reporting and delegation rules
 - `CONTENT_CAMPAIGN_PLAYBOOK.md` — campaign briefs, content audits, repurposing, video, SEO and landing pages
+- `FIRST_1000_CAMPAIGN_ROUTING.md` — destination and UTM rules for the live $27 Starter campaign
 - `COURSE_MEDIA_PRODUCTION.md` — course/video production and accessibility workflow
 - `EMAIL_FUNNEL.md` — nurture, segmentation, customer-success and permission rules
+- `EMAIL_PLATFORM_ACTIVATION.md` — verified Mailchimp status and the safe activation sequence
 - `CUSTOMER_RETENTION_REPUTATION_PLAYBOOK.md` — service, community, UGC, reviews, advocacy and crisis response
 - `MEASUREMENT_EXPERIMENT_PLAN.md` — KPIs, funnel measurement, video/email metrics and A/B tests
 - `QUARTERLY_STRATEGY_REVIEW.md` — SWOT, competitive/category review, STP, 7P, capacity and quarterly decisions
