@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Start Here | Square Social Studio</title>
+<meta name="robots" content="noindex,follow">
+<link rel="stylesheet" href="/assets/brand-system.css">
+<link rel="icon" href="/favicon.svg">
+<style>
+body{background:#0b1f3a}.wrap{max-width:620px;margin:auto;padding:54px 20px 72px}.brand{color:#d9b66d;text-transform:uppercase;letter-spacing:.18em;font-size:12px;font-weight:900}.card{background:#f8f6f0;border-radius:26px;padding:34px;margin-top:18px;box-shadow:0 24px 60px rgba(0,0,0,.22)}h1{font-size:clamp(44px,12vw,72px);line-height:.92;margin:10px 0 20px}p{color:#657083}.links{display:grid;gap:12px;margin-top:28px}.bio-link{display:block;text-decoration:none;background:#fffdf8;border:1px solid #dcd8ce;border-radius:16px;padding:18px 20px}.bio-link strong{display:block;color:#0b1f3a;font-size:18px}.bio-link span{display:block;color:#657083;font-size:14px;margin-top:3px}.bio-link.primary{background:#d9b66d;border-color:#d9b66d}.fine{font-size:12px;text-align:center;color:#cbd3dd;margin-top:20px}.fine a{color:#fff}.price{font-weight:900;color:#0b1f3a}
+</style>
+</head>
+<body>
+<main class="wrap">
+<div class="brand">Square Social Studio · Show Up Simply™</div>
+<section class="card">
+<h1>Turn what you know into content.</h1>
+<p>Choose the smallest useful next step. No need to learn the whole product ladder first.</p>
+<div class="links">
+<a class="bio-link primary tracked" data-content="bio-start-here" href="/start-here"><strong>Start Here</strong><span>Take the private 5-question diagnostic.</span></a>
+<a class="bio-link tracked" data-content="bio-30-ideas" href="/resources/30-social-media-content-ideas-small-business/"><strong>30 free content ideas</strong><span>Read all 30 ideas on the site.</span></a>
+<a class="bio-link tracked" data-content="bio-starter" href="/lp/30-day-content-starter/"><strong>Plan your month · <span class="price">$27 CAD</span></strong><span>The live 30-Day Content Starter.</span></a>
+<a class="bio-link tracked" data-content="bio-resources" href="/resources/"><strong>Free resource library</strong><span>Planning, AI, Reels, measurement and repurposing.</span></a>
+</div>
+</section>
+<p class="fine">Useful over noisy. Clear over clever. · <a href="/privacy">Privacy</a></p>
+</main>
+<script>
+(function(){
+  const allowed=new Set(['instagram','tiktok','pinterest','facebook','threads','linkedin','youtube','social']);
+  const params=new URLSearchParams(location.search);
+  let source=(params.get('src')||params.get('utm_source')||'social').toLowerCase();
+  if(!allowed.has(source)) source='social';
+  document.querySelectorAll('a.tracked').forEach(a=>{
+    const u=new URL(a.getAttribute('href'),location.origin);
+    u.searchParams.set('utm_source',source);
+    u.searchParams.set('utm_medium','organic-social');
+    u.searchParams.set('utm_campaign','first-1000');
+    u.searchParams.set('utm_content',a.dataset.content||'bio-link');
+    a.href=u.pathname+u.search;
+  });
+})();
+</script>
+</body>
+</html>
