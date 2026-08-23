@@ -8,15 +8,17 @@ Square Social Studio is a digital content-systems brand for small-business owner
 
 **Production method:** Clarify → Plan → Create → Publish → Repeat
 
+**Operating rule:** Reuse before create.
+
 ## Public website
 The GitHub Pages site includes:
 - Homepage and brand positioning
 - Browser-only `Start Here` diagnostic that recommends the smallest useful next step without collecting personal data
 - Digital product catalog
 - Live $27 30-Day Content Starter
-- Focused campaign landing page for the Starter with fit/not-fit and FAQ objection handling
+- Focused noindex campaign landing page for the Starter with fit/not-fit and FAQ objection handling
 - Ten evergreen educational resources plus the Resources hub
-- Indexable 30 social-media-content-ideas guide plus separate printable-PDF path
+- Indexable 30 social-media-content-ideas guide plus separate printable-PDF status path
 - Self-paced course library
 - Planned `Show Up Simply™: Plan Your Content Month` mini-course at $69; five-lesson curriculum documented, not for sale yet
 - Planned low-workload Square Social Vault MVP
@@ -29,7 +31,22 @@ The GitHub Pages site includes:
 - Branded 404 recovery page
 - Search sitemap/robots configuration
 - Accurate Product/Offer and Organization structured data where currently supportable
+- Open Graph/social-share metadata on the main campaign/resource/product entry pages
 - Responsive shared brand system
+
+## Private operator pages
+These pages are intentionally `noindex` and are for running the business/campaign rather than attracting search traffic:
+
+- `/launch-command-center/` — First $1K campaign control panel, Canva links, post-publish routine and browser-local weekly metrics
+- `/launch-dashboard/` — all 20 campaign captions, post checklist and auto-generated UTM destinations
+- `/publishing-calendar/` — dated August 24–September 27, 2026 five-week calendar with browser-local completion checks
+- `/reel-production/` — current voiceover scripts, durations and faceless shot lists for the five planned Reel slots
+- `/start-here/` — private browser-only visitor diagnostic
+
+Social profile shortcuts:
+- `/ig/` — Instagram source-tracked entry
+- `/tt/` — TikTok source-tracked entry
+- `/pin/` — Pinterest source-tracked entry
 
 ## Business operating systems
 These internal repository documents keep the business strategy consistent:
@@ -38,8 +55,11 @@ These internal repository documents keep the business strategy consistent:
 - `BUSINESS_MARKETING_SYSTEM.md` — audience segments, STP, 7Ps, channel roles and business model
 - `CLIENT_DELIVERY_CAPACITY_SYSTEM.md` — 3-client ceiling, owner-hour budget, onboarding, monthly delivery rhythm, reporting and delegation rules
 - `CONTENT_CAMPAIGN_PLAYBOOK.md` — campaign briefs, content audits, repurposing, video, SEO and landing pages
-- `FIRST_1000_CAMPAIGN_ROUTING.md` — destination and UTM rules for the live $27 Starter campaign
-- `FIRST_1000_30_DAY_PUBLISHING_PLAN.md` — 16-piece four-week distribution test built from existing content
+- `FIRST_1000_CAMPAIGN_ROUTING.md` — current education/product/profile destinations and UTM rules for the live $27 Starter campaign
+- `FIRST_1000_FIVE_WEEK_PUBLISHING_PLAN.md` — exact 20-post August 24–September 27 distribution plan
+- `FIRST_1000_DISTRIBUTION_EXECUTION.md` — platform roles, cross-post rules, Reel fallback and five-week message sequence
+- `FIRST_1000_SCORECARD.md` — five-week measurement and one-variable testing framework
+- `SOCIAL_PROFILE_LAUNCH_SETUP.md` — paste-ready profile copy, short tracked URLs and pinned-content rules
 - `SEO_CONTENT_CLUSTER_PLAN.md` — ten-resource search cluster and internal-link strategy
 - `COURSE_MEDIA_PRODUCTION.md` — course/video production and accessibility workflow
 - `MINI_COURSE_MVP_PLAN.md` — `Show Up Simply™: Plan Your Content Month`, five lessons, 45–60 minute target, no live-support requirement
@@ -60,6 +80,34 @@ These internal repository documents keep the business strategy consistent:
 - `CEO_DASHBOARD.md` — current live state, blockers, revenue test and next priorities
 - `EXTERNAL_ACTIVATION_ORDER.md` — exact provider-dependent activation sequence from freebie → email → search/analytics → verified product/course delivery → Vault
 - `CONESTOGA_STRATEGY_AUDIT.md` — folder-by-folder mapping from Conestoga coursework into the real business
+
+## Current First $1K campaign
+
+Campaign: `first-1000`
+
+Current launch truth:
+- 20 approved static/cover visual assets are complete in Canva,
+- 5 weeks,
+- 4 core posts per week,
+- August 24–September 27, 2026,
+- Instagram is the primary campaign test channel,
+- five Reel slots have current scripts/shot lists but fresh audio/video is not fully produced,
+- an unfinished Reel never blocks the campaign: use the approved static cover + full caption as the fallback,
+- retired $850-sprint R01–R06 video/audio is not part of the current campaign.
+
+Primary education destination:
+`/resources/30-social-media-content-ideas-small-business/`
+
+Primary purchase-intent destination:
+`/lp/30-day-content-starter/`
+
+Working experiment target:
+- 40 Starter sales = $1,080 CAD gross.
+
+This is a test target, not a forecast or guarantee.
+
+Current operating loop:
+**Publish → verify → respond → record → review → improve one variable → repeat.**
 
 ## Commercial model
 Square Social Studio is deliberately designed not to become a high-volume agency. Growth should come from a combination of digital products, self-paced education, recurring membership and a maximum of three premium done-for-you partnerships.
