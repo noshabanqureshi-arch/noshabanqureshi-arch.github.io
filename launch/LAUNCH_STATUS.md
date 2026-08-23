@@ -2,100 +2,83 @@
 
 Last updated: August 23, 2026
 
-## COMPLETE
+For the detailed canonical state, see `CURRENT_LAUNCH_STATE.md`.
 
-### Brand + offer system
-- Locked brand colours, typography, voice and content system.
-- Free resource, six individual paid tools, $69 mini-course, $149 Toolkit and $349 flagship architecture defined.
-- Canva product/course masters standardized.
+## LIVE
 
 ### Website
-- Homepage rebuilt as a real business homepage.
-- Catalog rebuilt.
-- Product sales pages rebuilt.
-- Offers, course, free-resource and About pages rebuilt.
-- Contact page rebuilt with no fake form and no personal email exposure.
-- Launch Kits and Content Systems collections rebuilt.
-- Sitemap and robots files added.
-- Old assignment/demo cart language removed from rebuilt legacy pages.
-
-### Payments
-- Live Square Social Studio Stripe account connected.
-- All eight paid offers created as one-time CAD catalogue items with SKUs and lookup keys.
-- Architecture selected: hosted checkout / Payment Links; GitHub Pages does not handle card data.
-- Public purchase links intentionally not published yet.
-
-### Delivery
-Ready ZIP packages:
-- SSS-P02 Brand Voice Clarity Workbook
-- SSS-P03 Caption Vault
-- SSS-P04 Reels Made Simple
-- SSS-P05 Monthly Content Dashboard quick-start
-- SSS-P06 Local Business Launch Pack
-
-Pre-launch ZIP:
-- SSS-B01 Show Up Simply™ Toolkit (missing final branded 30-Day Starter export)
-
-Each ready package contains a Start Here file and customer licence.
-
-### Email / compliance drafting
-- Five-email welcome/nurture sequence written.
-- CASL implementation checklist written.
-- Privacy policy draft written.
-- Terms of sale draft written.
-- Digital product licence draft written.
-- Required business details checklist written.
-
-## BLOCKED BY ACCOUNT / IDENTITY / FINAL USER DETAILS
-
-1. Business registration/trade-name status and legal seller name.
-2. Business mailing address suitable for public/legal use.
-3. Business telephone number if required for final consumer disclosure.
-4. Permanent branded support email and privacy contact email.
-5. Final custom domain.
-6. Final delivery/email platform account (Payhip and/or email provider) and its account onboarding.
-7. Final payment/delivery test purchase once the above is connected.
-
-## PRODUCT-SPECIFIC REMAINING WORK
+- Square Social Studio storefront is live on GitHub Pages.
+- 30-Day Content Starter sales page is live.
+- Public Privacy Notice, Digital Product Terms and Digital Product Licence are live.
+- Contact/support guidance is live without exposing personal contact details.
 
 ### SSS-P01 — 30-Day Content Starter
-- Render/verify rebuilt final workbook PDF.
-- Render/verify final companion pack.
-- Create final customer ZIP.
+- Price: **CAD $27**.
+- Website Buy button: **LIVE**.
+- Checkout/delivery: **Payhip**.
+- Payhip URL: `https://payhip.com/b/1gEcw`.
+- Stripe connected in Payhip.
+- Final PDF-only customer ZIP uploaded to Payhip.
+- Mobile 100%-off test order completed successfully and the ZIP downloaded.
+- Current package: 24-page workbook + 11-page companion planning pack + Start Here + licence.
+- No Canva account is required for the current edition.
 
-### SSS-P05 — Monthly Content Dashboard
-- Create customer-safe duplicable Notion template link.
-- Verify owner/master permissions are not exposed.
+## READY FOR THE NEXT MANUAL HANDOFF
 
-### SSS-B01 — Toolkit
-- Add final SSS-P01 package.
-- Final ZIP QA.
+### SSS-FREE01 — 30 Content Ideas for Your Business
+Ready files:
+- `SSS-FREE01_30-Content-Ideas.zip`
+- 8-page PDF guide inside the ZIP
+- `SSS-FREE01_30-Content-Ideas-Cover.png`
 
-### SSS-C01 — $69 mini-course
-- Five MP3 narrations.
-- Five MP4 lessons.
-- Captions/transcripts.
-- Course hosting and access test.
+Remaining step:
+- create the $0 Payhip product and return its product URL so the finished freebie landing-page button can be activated.
 
-### SSS-C02 — $349 flagship
-- 15 MP3 narrations.
-- 15 MP4 lessons.
-- Captions/transcripts.
-- Course hosting and access test.
+Exact instructions: `FREEBIE_PAYHIP_HANDOFF.md`.
 
-## LAUNCH RULE
+## CAMPAIGN ASSETS COMPLETE
+- 20-post first-$1,000 strategy
+- 20 ready-to-use campaign drafts
+- UTM link library and post slugs
+- analytics event map
+- five-email nurture copy
+- email platform handoff plan
+- CASL implementation checklist
 
-Do not publish paid checkout until:
-- the exact customer package for that SKU is complete;
-- branded support/contact details are live;
-- public legal/customer policies are finalized;
-- automated protected delivery is connected;
-- a full customer journey test succeeds on desktop and mobile.
+## INTENTIONALLY NOT ACTIVE YET
 
-## SIMPLE FIRST-LAUNCH TARGET
+### Marketing email automation
+Do not activate the five-email marketing sequence until the business has:
+- permanent sender identity/contact setup;
+- valid business mailing address for commercial-email footer use;
+- branded sender/support email;
+- consent records;
+- working unsubscribe process;
+- selected email platform.
 
-The first working automation should be:
+The $0 Payhip freebie can be delivered transactionally before marketing automation is activated.
 
-Visitor -> free resource -> permission-based email sequence -> $27 Starter sales page -> hosted checkout -> protected file delivery -> receipt/welcome -> follow-up.
+### Website analytics
+No advertising pixel or third-party marketing analytics script has intentionally been added yet. Use Payhip orders/revenue as the first source of truth and preserve UTM parameters for later attribution.
 
-Once this path works without manual intervention, Square Social Studio is operational.
+## OTHER OFFERS
+Do not publish checkout for the other products/courses merely because their product pages exist. Each SKU needs its own delivery/course-access QA first.
+
+Remaining product-specific work includes:
+- customer-safe Notion duplication for the Monthly Content Dashboard;
+- final Toolkit bundle QA;
+- lesson media/course hosting for the $69 mini-course;
+- lesson media/course hosting for the $349 flagship.
+
+## OWNER-ONLY BUSINESS SETUP STILL TO COMPLETE
+These should be finished as the business becomes more public, but they do not need to undo the current self-serve $27 launch:
+- final legal operating/trade-name setup;
+- public/business mailing address;
+- dedicated business phone if needed;
+- custom domain;
+- branded support/privacy/sender email;
+- final marketing-email provider;
+- professional review of final legal/customer policies for the actual operating structure.
+
+## SECURITY RULE
+Never store private customer data, banking data, identity documents, payment secrets, paid ZIP files or private course media in the public GitHub repository.
