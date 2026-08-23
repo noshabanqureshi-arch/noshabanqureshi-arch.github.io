@@ -2,6 +2,13 @@
 
 This file is the working source of truth for automated welcome, nurture, customer education and retention email.
 
+## Current platform status
+A Square Social Studio Mailchimp account already exists and is currently on a free plan. The platform is therefore **selected**, not unknown.
+
+Activation still waits on the business-side requirements documented in `EMAIL_PLATFORM_ACTIVATION.md`: branded sender/support identity, suitable business mailing address, explicit consent capture, unsubscribe testing, segmentation/purchase suppression and privacy-flow review.
+
+Do not switch on ongoing marketing automation simply because the Mailchimp account exists.
+
 ## Brand voice
 Calm, capable, human, clear, practical, thoughtful. Use plain English, one main idea per email, one primary CTA, and no fake urgency.
 
