@@ -5,7 +5,7 @@ Purpose: track which strategies from the Conestoga College Social Media Marketin
 Status key:
 - ✅ Implemented
 - 🟡 Prepared / waiting on a platform, credential, content file or customer data
-- ⏭ Future only if evidence/capacity justifies it
+- ⏭ Future only if evidence/capacity justifies activation
 
 ---
 
@@ -28,8 +28,9 @@ Status key:
 - ✅ First evergreen resource: `/resources/turn-customer-questions-into-content/`.
 - ✅ Expanded `sitemap.xml`; `robots.txt` already existed and is correct.
 - ✅ Dedicated focused campaign landing page: `/lp/30-day-content-starter/`.
-- ✅ Homepage canonical URL and SEO resource path.
-- 🟡 GA4/event tracking prepared in measurement plan; waiting for a real analytics property/ID and privacy implementation decision.
+- ✅ Canonical URLs on the main SEO/conversion pages.
+- ✅ Core navigation normalized across the main site.
+- 🟡 Analytics/event tracking prepared in the measurement plan; waiting for a real analytics property/ID and final privacy implementation.
 - 🟡 Free lead-magnet conversion page cannot be fully activated until the $0 delivery/checkout link is connected.
 
 ---
@@ -46,7 +47,7 @@ Status key:
 - Promote/distribute and adapt content across channels.
 
 ## Square Social implementation
-- ✅ Required pre-production video brief added to `COURSE_MEDIA_PRODUCTION.md`.
+- ✅ Required pre-production video brief in `COURSE_MEDIA_PRODUCTION.md`.
 - ✅ Video funnel roles: Discover/Attract, Learn/Engage, Trust/Decide, Act and Delight/Retain.
 - ✅ Platform/aspect-ratio/duration/sound expectation required before production.
 - ✅ Caption-first and muted-playback QA for short social video.
@@ -64,10 +65,9 @@ Status key:
 - Paid / owned / earned media.
 - Social funnel: awareness → consideration → decision → engagement/advocacy.
 - Content calendar and repeatable social strategy.
-- Awareness/interest/affinity measurement.
 - Community management.
 - Reputation and crisis management.
-- Influencer/creator fit and agreements.
+- Influencer/creator fit and written agreements.
 
 ## Square Social implementation
 - ✅ `BRAND_SYSTEM.md` is the brand source of truth.
@@ -75,11 +75,11 @@ Status key:
 - ✅ Brand voice and visual standards across site/course/product production.
 - ✅ Paid/owned/earned media rules in `BRAND_SYSTEM.md` and `BUSINESS_MARKETING_SYSTEM.md`.
 - ✅ Funnel extended beyond purchase into retention and advocacy.
-- ✅ `CUSTOMER_RETENTION_REPUTATION_PLAYBOOK.md` created.
-- ✅ Crisis levels, customer-service response process and brand social policy documented.
+- ✅ `CUSTOMER_RETENTION_REPUTATION_PLAYBOOK.md` covers customer service, reviews, UGC, reputation and crisis levels.
 - ✅ Honest review/referral/UGC permission rules documented.
-- ✅ Vault community model designed around implementation, not message volume.
-- 🟡 Creator/influencer partnerships should not be activated until a proven campaign and budget justify them; any future partnership needs brand fit, deliverables, disclosure requirements, usage rights and measurement defined before work begins.
+- ✅ Vault community model designed around implementation rather than message volume.
+- ✅ `CREATOR_PARTNERSHIP_POLICY.md` now requires target-audience/brand fit, a defined funnel role, measurement and a written agreement covering scope, timeline, compensation, content rights, approvals, disclosure/compliance and termination.
+- ⏭ Creator partnerships remain optional and should only activate after a proven offer/campaign and acceptable budget/workload.
 
 ---
 
@@ -125,7 +125,7 @@ Status key:
 - Social media ROI linked to business goals.
 
 ## Square Social implementation
-- ✅ AIDA is retained as an internal conversion lens underneath the customer-facing Discover → Learn → Trust → Act language.
+- ✅ AIDA remains an internal conversion lens underneath the customer-facing Discover → Learn → Trust → Act language.
 - ✅ Social listening loop in `CONTENT_CAMPAIGN_PLAYBOOK.md`.
 - ✅ Campaign brief requires goal, audience, stage, CTA, destination and KPI before production.
 - ✅ Customer-service standards/social policy in `CUSTOMER_RETENTION_REPUTATION_PLAYBOOK.md`.
@@ -140,7 +140,7 @@ Status key:
 ## Useful course strategies
 - Marketing plan and strategy.
 - 4Ps/7Ps service marketing mix.
-- SWOT.
+- SWOT situation analysis.
 - STP: segment → target → position.
 - Customer profiles.
 - Behavioural economics and decision-making.
@@ -156,8 +156,7 @@ Status key:
 - ✅ NPS-style recommendation/feedback process documented.
 - ✅ Integrated-marketing rule: one campaign idea adapted consistently across selected channels.
 - ✅ Behavioural-economics application is limited to ethical friction reduction: fewer choices, clearer defaults, transparent pricing, obvious next steps and simpler checkout/learning paths. No manipulative dark patterns or fake urgency.
-- ✅ Quarterly review in `MEASUREMENT_EXPERIMENT_PLAN.md` checks channel, segment, offer, workload and funnel performance.
-- ⏭ Formal SWOT should be refreshed quarterly or when the market/business changes materially; it is a decision tool rather than customer-facing content.
+- ✅ `QUARTERLY_STRATEGY_REVIEW.md` implements SWOT, competitive/category review, STP, 7Ps, funnel, customer voice, channel performance, capacity and experiment review every quarter.
 
 ---
 
@@ -178,10 +177,10 @@ Status key:
 - ✅ Discover → Learn → Trust → Act integrated into homepage, About, Shop, Courses, Vault, Done-for-You and free-resource flow.
 - ✅ Buyer-persona thinking integrated into the three target segments.
 - ✅ Brand promise: “Show Up Simply™” and “Turn what you already know into content.”
-- ✅ Evergreen resource/blog layer added to website.
+- ✅ Evergreen resource/blog layer added to the website.
 - ✅ First resource converts a common business question into a repeatable content method.
 - ✅ Email/customer relationship flow extends beyond acquisition.
-- ✅ Trust → loyalty → advocacy built into retention playbook.
+- ✅ Trust → loyalty → advocacy built into the retention playbook.
 - ✅ UGC/reviews only with authentic content and permission.
 - ✅ Feedback/recommendation measurement connected to business outcomes.
 
@@ -189,35 +188,18 @@ Status key:
 
 # Cross-course strategies now locked into the business
 
-## 1. Reuse before create
-Audit what already exists before making more.
-
-## 2. One campaign, many adaptations
-Build one strong core idea and adapt it across selected channels.
-
-## 3. One asset, one primary job
-Discover, Learn, Trust, Act, Retain or Advocate.
-
-## 4. One primary CTA
-Do not make one page/post/email ask the customer to do five things.
-
-## 5. Evidence over vanity
-Tie social, email, video and website metrics to business outcomes.
-
-## 6. Test one variable
-A/B testing changes one meaningful factor at a time.
-
-## 7. Retention is part of marketing
-Customer success, repeat purchases, Vault retention, reviews and referrals matter as much as acquisition.
-
-## 8. Accessibility is part of quality
-Readable contrast, keyboard focus, mobile layout, captions/subtitles and understandable structure are production requirements.
-
-## 9. Privacy and trust are part of the brand
-Collect less, explain what happens, protect customer information, document consent and avoid deceptive tactics.
-
-## 10. Capacity is a business constraint
-Scale digital intellectual property and recurring products before expanding client count or owner hours.
+1. **Reuse before create.** Audit what already exists before making more.
+2. **One campaign, many adaptations.** Build one strong core idea and adapt it across selected channels.
+3. **One asset, one primary job.** Discover, Learn, Trust, Act, Retain or Advocate.
+4. **One primary CTA.** Do not make one page/post/email ask the customer to do five things.
+5. **Evidence over vanity.** Tie social, email, video and website metrics to business outcomes.
+6. **Test one variable.** A/B tests change one meaningful factor at a time.
+7. **Retention is part of marketing.** Customer success, repeat purchases, Vault retention, reviews and referrals matter as much as acquisition.
+8. **Accessibility is part of quality.** Readable contrast, keyboard focus, mobile layout, captions/subtitles and understandable structure are production requirements.
+9. **Privacy and trust are part of the brand.** Collect less, explain what happens, protect customer information, document consent and avoid deceptive tactics.
+10. **Capacity is a business constraint.** Scale digital intellectual property and recurring products before expanding client count or owner hours.
+11. **Partnerships require fit and contracts.** Creator reach is useful only when audience, brand, disclosure, rights, measurement and workload make sense.
+12. **Review the situation quarterly.** SWOT and competitive review inform what to double down on, fix, test, stop and protect.
 
 ---
 
