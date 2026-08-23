@@ -14,15 +14,16 @@ The GitHub Pages site includes:
 - Digital product catalog
 - Live $27 30-Day Content Starter
 - Focused campaign landing page for the Starter
+- Six evergreen educational resources plus the Resources hub
 - Self-paced course library
 - Planned Square Social Vault
 - Limited done-for-you service (maximum 3 active clients)
 - Browser-only done-for-you fit check / application-prep page
 - Free-resource funnel
-- Searchable Resources hub and evergreen educational content
 - About, contact, privacy, terms and licence pages
 - Branded 404 recovery page
 - Search sitemap/robots configuration
+- Accurate Product/Offer and Organization structured data where currently supportable
 - Responsive shared brand system
 
 ## Business operating systems
@@ -36,6 +37,7 @@ These internal repository documents keep the business strategy consistent:
 - `COURSE_MEDIA_PRODUCTION.md` — course/video production and accessibility workflow
 - `EMAIL_FUNNEL.md` — nurture, segmentation, customer-success and permission rules
 - `EMAIL_PLATFORM_ACTIVATION.md` — verified Mailchimp status and the safe activation sequence
+- `SEARCH_VISIBILITY_ACTIVATION.md` — Search Console, sitemap/indexing, structured-data and branded-domain migration checklist
 - `CUSTOMER_RETENTION_REPUTATION_PLAYBOOK.md` — service, community, UGC, reviews, advocacy and crisis response
 - `MEASUREMENT_EXPERIMENT_PLAN.md` — KPIs, funnel measurement, video/email metrics and A/B tests
 - `QUARTERLY_STRATEGY_REVIEW.md` — SWOT, competitive/category review, STP, 7P, capacity and quarterly decisions
