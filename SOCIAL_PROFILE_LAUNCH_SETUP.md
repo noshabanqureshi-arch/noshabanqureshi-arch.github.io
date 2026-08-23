@@ -11,7 +11,9 @@ Turn your expertise into content you can repeat.
 ↓ Start here
 
 Link:
-`https://noshabanqureshi-arch.github.io/go/?src=instagram`
+`https://noshabanqureshi-arch.github.io/ig/`
+
+The `/ig/` shortcut routes into the Square Social bio page with Instagram campaign-source tracking already attached.
 
 ### Instagram pinned posts
 1. **Start here:** “If you never know what to post, you may not have an idea problem.”
@@ -24,7 +26,9 @@ Clear systems. Less content scramble.
 ↓ Start here
 
 Link:
-`https://noshabanqureshi-arch.github.io/go/?src=tiktok`
+`https://noshabanqureshi-arch.github.io/tt/`
+
+The `/tt/` shortcut routes into the same bio page with TikTok source tracking.
 
 ### TikTok pinned videos
 1. One real customer question → four content pieces.
@@ -35,7 +39,9 @@ Link:
 Practical social media content systems for small-business owners. Content ideas, planning, content pillars, short-form video, AI workflows and simple monthly systems built around real customer questions and business expertise.
 
 Profile link:
-`https://noshabanqureshi-arch.github.io/go/?src=pinterest`
+`https://noshabanqureshi-arch.github.io/pin/`
+
+The `/pin/` shortcut routes into the same bio page with Pinterest source tracking.
 
 ### Starting boards
 - Small Business Content Ideas
@@ -80,7 +86,7 @@ Use short replies that:
 Before publishing the campaign:
 - profile name clearly says Square Social Studio,
 - bio matches the current positioning,
-- link opens `/go/` correctly,
+- short tracked link opens the `/go/` bio page correctly,
 - three pinned pieces are accurate,
 - no unfinished product is described as available,
 - no personal contact data is unnecessarily public,
