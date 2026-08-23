@@ -1,163 +1,89 @@
 # Square Social Studio — Payhip Launch Integration
 
-## Decision
-Use the GitHub Pages site as the public branded storefront and Payhip as the checkout, protected-delivery and course-access layer for launch.
+## Launch architecture
+Use the GitHub Pages site as the public branded storefront and Payhip as the checkout/protected-delivery layer for launch. Stripe is connected inside Payhip for card-payment processing.
 
-Why this fits the current business:
-- Digital downloads and online courses can live in one platform.
-- Customers can receive protected download links after purchase.
-- Course customers can have their own account and progress through lessons.
-- Checkout/cart can be linked or embedded from the Square Social Studio website.
-- Start on the free plan while validating demand, then review paid plan economics as revenue grows.
-- Course video hosting can be added, or external video embeds can be used.
+## SSS-P01 — LIVE
 
-## First live product
-Launch **SSS-P01 — 30-Day Content Starter — $27 CAD** first.
-
-Current launch assets already built:
-- current 20-page workbook
-- current 10-page companion planning pack
-- final customer ZIP: `SSS-P01_30-Day-Content-Starter.zip`
-- customer licence
-- Start Here instructions
-- updated website sales page
-- thank-you page
-- first-$1,000 traffic and KPI plan
-- inactive Stripe Payment Link retained as a fallback / reference, not public
-
-### Exact Payhip setup for SSS-P01
+### 30-Day Content Starter
 - Product type: Digital Product
-- Product title: `30-Day Content Starter`
-- Customer-facing brand: `Square Social Studio`
-- Price: `27.00 CAD`
-- SKU/internal reference: `SSS-P01`
-- Upload: final `SSS-P01_30-Day-Content-Starter.zip`
-- Short promise: `Plan one clear month of useful content around your audience, your real expertise and one business goal.`
-- Primary outcome: customer finishes with a 30-day content bank and repeatable monthly planning system.
-- Delivery: Payhip protected download after successful payment.
-- Licence: one purchaser / one owned business; source files and template links may not be redistributed.
-- Results disclaimer: no guarantee of followers, reach, leads, sales or revenue.
-- Refund handling: disclose digital-product refund terms clearly before purchase and review technical-access issues individually.
-- Test method: complete a 100%-off test order before public launch.
+- Public title: `30-Day Content Starter`
+- Price: **27.00 CAD**
+- Internal SKU: `SSS-P01`
+- Payhip product URL: `https://payhip.com/b/1gEcw`
+- Website sales page: `https://noshabanqureshi-arch.github.io/products/30-day-content-starter/`
+- Customer delivery: Payhip
+- Payment processing: connected Stripe account through Payhip
+- Website Buy button: live
 
-### SSS-P01 launch gate
-Do not publish the website Buy button until all are true:
-- Payhip product exists
-- Stripe is fully activated and charges are enabled
-- Payhip is connected to the activated payment account
-- $27 CAD price displays correctly
-- final ZIP is uploaded and downloadable
-- customer-safe Canva access is inserted or the launch description is limited to the included files
-- branded support/privacy email is present
-- privacy / terms / licence are linked
-- one mobile and one desktop test order pass
+### Current package
+- final customer ZIP uploaded to Payhip
+- 24-page workbook
+- 11-page companion planning pack
+- Start Here instructions
+- customer licence
+- PDF-only launch edition
+- no Canva account required
 
-## Current Stripe status
-The Stripe account exists but is not yet activated for live charges.
+### QA completed
+- Payhip product created
+- CAD $27 price displayed
+- Stripe connected
+- mobile 100%-off checkout test completed
+- ZIP downloaded successfully through the Payhip flow
 
-Stripe currently reports:
-- `charges_enabled = false`
-- `payouts_enabled = false`
-- `details_submitted = false`
+A real CAD $27 charge was not intentionally made for QA.
 
-Owner onboarding still requires:
-- business profile product description
-- business website URL
-- support phone
-- Stripe Terms of Service acceptance
+## SSS-FREE01 — NEXT PAYHIP PRODUCT
 
-Do not turn on public checkout until Stripe reports charges enabled.
+### 30 Content Ideas for Your Business
+Ready files:
+- `SSS-FREE01_30-Content-Ideas.zip`
+- `SSS-FREE01_30-Content-Ideas-Cover.png`
+
+Exact creation instructions are in:
+`FREEBIE_PAYHIP_HANDOFF.md`
+
+Launch settings:
+- Digital Product
+- title: `30 Content Ideas for Your Business`
+- price: `0`
+- currency: CAD
+- visibility: Unlisted during setup
+- automatic mailing-list subscription: OFF
+
+After creation, return the Payhip product URL so the finished website freebie button can be activated.
+
+## Why the freebie stays transactional first
+The free Payhip product can collect the email needed to create/deliver the $0 order. Do not automatically turn that transactional download into ongoing marketing email until Square Social Studio has a separate permission-based email workflow with proper sender identity, mailing address, consent record and unsubscribe.
 
 ## Product map
-| Internal SKU | Product | Type | CAD Price | Build status |
-|---|---|---|---:|---|
-| SSS-FREE-01 | 30 Content Ideas for Your Business | Lead magnet | $0 | Built |
-| SSS-P01 | 30-Day Content Starter | Digital product | $27 | Built |
-| SSS-P02 | Brand Voice Clarity Workbook | Digital product | $18 | Built |
-| SSS-P03 | Caption Vault: 120 Prompts | Digital product | $22 | Built |
-| SSS-P04 | Reels Made Simple | Digital product | $34 | Built |
-| SSS-P05 | Monthly Content Dashboard | Digital product / Notion template | $28 | Built |
-| SSS-P06 | Local Business Launch Pack | Digital product | $42 | Built |
-| SSS-C01 | 30 Days of Content in 60 Minutes | Course + downloads | $69 | Curriculum/assets built; video production pending |
-| SSS-B01 | Show Up Simply™ Toolkit | Bundle | $149 | Built; final delivery QA pending |
-| SSS-C02 | Show Up Simply™ Content System | Flagship course + Toolkit | $349 | 15-lesson course master built; video production pending |
 
-## Account setup that requires the business owner
-1. Create/verify the Payhip account in the legal business owner's name.
-2. Complete Stripe onboarding until charges are enabled.
-3. Connect the activated Stripe and/or PayPal account to Payhip.
-4. Enter legal business/contact/tax information.
-5. Configure payout and tax settings.
-6. Confirm the customer-facing business name is Square Social Studio.
+| SKU | Product | CAD | Public checkout state |
+|---|---|---:|---|
+| SSS-FREE01 | 30 Content Ideas for Your Business | 0 | Payhip product to create |
+| SSS-P01 | 30-Day Content Starter | 27 | **LIVE** |
+| SSS-P02 | Brand Voice Clarity Workbook | 18 | Do not publish until delivery QA |
+| SSS-P03 | Caption Vault: 120 Prompts | 22 | Do not publish until delivery QA |
+| SSS-P05 | Monthly Content Dashboard | 28 | Notion customer duplicate path still needs QA |
+| SSS-P04 | Reels Made Simple | 34 | Do not publish until delivery QA |
+| SSS-P06 | Local Business Launch Pack | 42 | Do not publish until delivery QA |
+| SSS-C01 | 30 Days of Content in 60 Minutes | 69 | Course media/access pending |
+| SSS-B01 | Show Up Simply™ Toolkit | 149 | Bundle QA pending |
+| SSS-C02 | Show Up Simply™ Content System | 349 | Course media/access pending |
 
-Do not put payment secrets, API keys or banking information in GitHub.
+## Product creation checklist for future Payhip downloads
+Before activating a website purchase button:
+1. final customer package exists;
+2. description matches the exact files delivered;
+3. price/currency are correct;
+4. customer licence/refund information is available;
+5. protected delivery is configured;
+6. a test order/download succeeds;
+7. website page reflects the tested delivery scope.
 
-## Digital product setup
-For each digital product:
-1. Create the Payhip product using the exact title and CAD price above.
-2. Upload the final customer PDF/download package.
-3. Use the product description from the matching GitHub sales page.
-4. Set a sensible download limit.
-5. Enable PDF stamping when appropriate for portrait PDFs.
-6. Add the customer licence/refund terms before checkout.
-7. Complete a 100%-off test purchase before enabling the website button.
-
-## Course setup
-### 30 Days of Content in 60 Minutes
-Sections / lessons:
-1. Clarify Your Goal + Audience
-2. Build Your Content Pillars
-3. Generate 30 Useful Content Ideas
-4. Turn Ideas Into Captions + Reels
-5. Build the Calendar + Repeat
-
-Include:
-- lesson video
-- captions/transcript
-- lesson action
-- 30-Day Content Starter workbook
-- editable Canva companion pack
-- AI prompt library
-
-### Show Up Simply™ Content System
-Five modules:
-1. Clarify — goal, audience, voice
-2. Plan — funnel, pillars, channels
-3. Create — copy, short video, Canva
-4. Publish — workflow, native formats, email
-5. Repeat — KPIs, repurpose, launches
-
-Total: 15 lessons plus five implementation checkpoints and the complete Toolkit.
-
-## Website integration
-Do not enable a purchase button until the matching Payhip product has:
-- a live checkout URL
-- correct price and currency
-- correct uploaded files/course access
-- completed policies
-- successful test order
-
-Once those URLs exist, replace each disabled website button with the corresponding Payhip checkout link or embedded checkout.
-
-## Customer delivery QA
-For every paid SKU test:
-- checkout price/currency
-- tax display
-- terms/refund acknowledgement
-- receipt
-- download/course access
-- mobile experience
-- expired/incorrect-link handling
-- support contact
-- licence visibility
-
-## Analytics
-Track at minimum:
-- product page view
-- checkout click
-- completed purchase (via available Payhip/analytics integration)
-- revenue by SKU
-- funnel progression from free resource to paid offer
+## Course creation rule
+Do not create public checkout for the $69 or $349 course merely because curriculum pages exist. Lesson media, captions/transcripts, access control and a student test must be complete first.
 
 ## Security rule
-Paid files, course videos and source templates must not be committed to the public GitHub repository. GitHub contains the storefront and public marketing assets only.
+Never place paid customer ZIPs, banking details, identity documents, payment secrets or customer order data in the public GitHub repository.
