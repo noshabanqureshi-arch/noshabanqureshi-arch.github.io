@@ -1,0 +1,72 @@
+{
+  "campaign_id": "first-1000",
+  "source_of_truth": "https://noshabanqureshi-arch.github.io/automation/public-business-manifest.json",
+  "schema": "https://noshabanqureshi-arch.github.io/automation/content-job-schema.json",
+  "jobs": [
+    {
+      "post_id":"P01","status":"queued","channel":"instagram","format":"reel","job":"Teach","journey_stage":"Discover",
+      "message":"If you never know what to post, you may not have an idea problem.",
+      "source_material":["real customer questions","business goal","audience","repeatable content pillars"],
+      "hook":"If you never know what to post, you may not have an idea problem.",
+      "voiceover_target_seconds":25,
+      "production_style":["voiceover + B-roll","text-led","simple screen/process footage"],
+      "cta":"Read 30 free content ideas.",
+      "destination":"https://noshabanqureshi-arch.github.io/resources/30-social-media-content-ideas-small-business/",
+      "utm_content":"idea-problem-reel","approval_required":true,
+      "canva_name":"SSS-FIRST1000-P01-REEL","voiceover_filename":"SSS-FIRST1000-P01-VO-v1.mp3","final_asset_url":null,"published_url":null,
+      "notes":["Do not invent a statistic about content consistency.","Static approved Canva cover is the fallback if video is delayed."]
+    },
+    {
+      "post_id":"P06","status":"queued","channel":"instagram","format":"reel","job":"Teach","journey_stage":"Learn",
+      "message":"One real customer question can become four useful pieces of content.",
+      "source_material":["customer question","Reel","carousel","Story or FAQ","email or resource"],
+      "hook":"One customer question can become four pieces of content.",
+      "voiceover_target_seconds":25,
+      "production_style":["voiceover + B-roll","text-led","carousel-to-video"],
+      "cta":"Read the free 30 ideas and choose five worth repurposing.",
+      "destination":"https://noshabanqureshi-arch.github.io/resources/30-social-media-content-ideas-small-business/",
+      "utm_content":"one-question-four-posts","approval_required":true,
+      "canva_name":"SSS-FIRST1000-P06-REEL","voiceover_filename":"SSS-FIRST1000-P06-VO-v1.mp3","final_asset_url":null,"published_url":null,
+      "notes":["Repurposing means adapting one verified answer, not inventing four unrelated ideas."]
+    },
+    {
+      "post_id":"P10","status":"queued","channel":"instagram","format":"reel","job":"Convert","journey_stage":"Act",
+      "message":"Plan the important decisions for the month before you start posting.",
+      "source_material":["goal","audience","pillars","ideas","calendar","hooks","next steps"],
+      "hook":"What if your next month was planned before you opened Instagram?",
+      "voiceover_target_seconds":25,
+      "production_style":["voiceover + B-roll","screen recording","text-led"],
+      "cta":"Plan your month with the 30-Day Content Starter — $27 CAD.",
+      "destination":"https://noshabanqureshi-arch.github.io/lp/30-day-content-starter/",
+      "utm_content":"plan-next-month-reel","approval_required":true,
+      "canva_name":"SSS-FIRST1000-P10-REEL","voiceover_filename":"SSS-FIRST1000-P10-VO-v1.mp3","final_asset_url":null,"published_url":null,
+      "notes":["Do not claim the product guarantees sales, followers or a fully written month."]
+    },
+    {
+      "post_id":"P12","status":"queued","channel":"instagram","format":"reel","job":"Trust","journey_stage":"Learn",
+      "message":"Use AI to organize real expertise, not invent it.",
+      "source_material":["real customer question","actual business answer","real example","content job","AI guardrails"],
+      "hook":"AI should organize your expertise — not manufacture it.",
+      "voiceover_target_seconds":25,
+      "production_style":["voiceover + screen recording","text-led","B-roll"],
+      "cta":"Read the free AI guide.",
+      "destination":"https://noshabanqureshi-arch.github.io/resources/use-ai-social-media-without-sounding-generic/",
+      "utm_content":"ai-without-inventing","approval_required":true,
+      "canva_name":"SSS-FIRST1000-P12-REEL","voiceover_filename":"SSS-FIRST1000-P12-VO-v1.mp3","final_asset_url":null,"published_url":null,
+      "notes":["No invented proof, testimonials, statistics or customer results."]
+    },
+    {
+      "post_id":"P16","status":"queued","channel":"instagram","format":"reel","job":"Convert","journey_stage":"Act",
+      "message":"Answer four planning questions before creating next month's posts.",
+      "source_material":["What is the goal?","Who are we speaking to?","What should we repeat?","What is the next step?"],
+      "hook":"Before you plan next month's posts, answer these four questions.",
+      "voiceover_target_seconds":30,
+      "production_style":["text-led","voiceover + B-roll","screen recording"],
+      "cta":"Use the $27 Starter to plan before creating.",
+      "destination":"https://noshabanqureshi-arch.github.io/lp/30-day-content-starter/",
+      "utm_content":"four-questions-before-posting","approval_required":true,
+      "canva_name":"SSS-FIRST1000-P16-REEL","voiceover_filename":"SSS-FIRST1000-P16-VO-v1.mp3","final_asset_url":null,"published_url":null,
+      "notes":["Keep the four questions simple enough to read on screen."]
+    }
+  ]
+}
