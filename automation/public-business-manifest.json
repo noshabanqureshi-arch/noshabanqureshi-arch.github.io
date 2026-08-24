@@ -1,0 +1,63 @@
+{
+  "brand": {
+    "name": "Square Social Studio",
+    "promise": "Show Up Simply™",
+    "positioning": "Turn what you already know into useful content—without making social media your full-time job.",
+    "audience": "Busy small-business owners, especially service-based and expertise-led businesses.",
+    "voice": ["calm", "helpful", "practical", "credible", "human", "clear over clever", "useful over noisy"],
+    "colors": {
+      "navy": "#0B1F3A",
+      "warm_white": "#F8F6F0",
+      "gold": "#D9B66D",
+      "sage": "#8FAE9E"
+    }
+  },
+  "frameworks": {
+    "customer_journey": ["Discover", "Learn", "Trust", "Act", "Transform", "Retain", "Advocate"],
+    "production_method": ["Clarify", "Plan", "Create", "Publish", "Repeat"],
+    "content_jobs": ["Teach", "Trust", "Connect", "Offer", "Convert"]
+  },
+  "live_offers": [
+    {
+      "name": "30-Day Content Starter",
+      "price_cad": 27,
+      "status": "live",
+      "sales_page": "https://noshabanqureshi-arch.github.io/products/30-day-content-starter/",
+      "campaign_page": "https://noshabanqureshi-arch.github.io/lp/30-day-content-starter/",
+      "checkout": "https://payhip.com/b/1gEcw"
+    }
+  ],
+  "free_resources": {
+    "resources_hub": "https://noshabanqureshi-arch.github.io/resources/",
+    "content_ideas_guide": "https://noshabanqureshi-arch.github.io/resources/30-social-media-content-ideas-small-business/",
+    "pdf_status": "package ready; $0 Payhip delivery connection pending"
+  },
+  "planned_offers": [
+    {"name": "Show Up Simply™: Plan Your Content Month", "planned_price_cad": 69, "status": "not for sale"},
+    {"name": "Show Up Simply™ Toolkit", "planned_price_cad": 149, "status": "not for sale"},
+    {"name": "Show Up Simply™ Content System", "planned_price_cad": 349, "status": "not for sale"},
+    {"name": "Square Social Vault", "planned_price_cad_monthly": 99, "status": "not active"}
+  ],
+  "services": {
+    "done_for_you": {
+      "starting_price_cad_monthly": 3000,
+      "max_active_clients": 3,
+      "status": "fit check live; secure application submission pending"
+    }
+  },
+  "campaign": {
+    "id": "first-1000",
+    "primary_channel": "instagram",
+    "utm_medium": "organic-social",
+    "instagram_bio": "https://noshabanqureshi-arch.github.io/ig/",
+    "rule": "one primary CTA per post"
+  },
+  "guardrails": [
+    "Do not invent testimonials, statistics, credentials, customer results, deadlines or discounts.",
+    "Do not change live prices or product status without owner approval.",
+    "Do not describe planned offers as available for purchase.",
+    "Use AI to organize real expertise; do not manufacture expertise or proof.",
+    "Keep sensitive client/customer information out of this public manifest."
+  ],
+  "updated": "2026-08-23"
+}
