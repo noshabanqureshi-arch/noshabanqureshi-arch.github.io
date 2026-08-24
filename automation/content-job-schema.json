@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://noshabanqureshi-arch.github.io/automation/content-job-schema.json",
+  "title": "Square Social Studio Content Job",
+  "type": "object",
+  "required": ["post_id","campaign_id","status","channel","format","job","message","cta","destination","utm_content","approval_required"],
+  "properties": {
+    "post_id": {"type":"string","pattern":"^P[0-9]{2}$"},
+    "campaign_id": {"type":"string"},
+    "status": {"enum":["queued","drafting","ready_for_approval","approved","scheduled","published","needs_revision","blocked"]},
+    "channel": {"enum":["instagram","tiktok","pinterest","linkedin","email","website"]},
+    "format": {"enum":["reel","carousel","static","process","faq","email","article","pin"]},
+    "job": {"enum":["Teach","Trust","Connect","Offer","Convert"]},
+    "journey_stage": {"enum":["Discover","Learn","Trust","Act","Transform","Retain","Advocate"]},
+    "message": {"type":"string"},
+    "source_material": {"type":"array","items":{"type":"string"}},
+    "hook": {"type":"string"},
+    "voiceover_target_seconds": {"type":"integer","minimum":5,"maximum":90},
+    "production_style": {"type":"array","items":{"type":"string"}},
+    "cta": {"type":"string"},
+    "destination": {"type":"string","format":"uri"},
+    "utm_content": {"type":"string"},
+    "approval_required": {"type":"boolean"},
+    "canva_name": {"type":"string"},
+    "voiceover_filename": {"type":"string"},
+    "final_asset_url": {"type":["string","null"]},
+    "published_url": {"type":["string","null"]},
+    "notes": {"type":"array","items":{"type":"string"}}
+  },
+  "additionalProperties": true
+}
